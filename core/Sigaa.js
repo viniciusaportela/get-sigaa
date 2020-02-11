@@ -57,7 +57,7 @@ class Sigaa {
     await Promise.all(pages.map((page, index) => {
       let item = this.courses[index]
       debug && console.log(`[${Colors.blue(debugName)}][getCourse]` + ` ${this.url.base}/sigaa/public/curso/lista.jsf?nivel=${item.level}&aba=${item.id}`);
-      return page.goto(`${this.url.base}/sigaa/public/curso/lista.jsf?nivel=${item.level}&aba=${item.id}`, { waitUntil: 'load' })
+      return page.goto(`${this.url.base}/sigaa/public/curso/lista.jsf?nivel=${item.level}&aba=${item.id}`, { waitUntil: 'domcontentloaded', timeout: 0 })
     }))
 
     // Get Page Content
@@ -71,13 +71,16 @@ class Sigaa {
     const res = data.map((html, index) => {
 
       let $ = cheerio.load(html);
-      return processTable($('.listagem tbody').html());
+      return processTable($('.listagem tbody'), { cheerio: $, mode, title: this.courses[index].title });
     })
 
     let finalRes = []
     res.map(item => finalRes.push(item))
 
     debug && console.log(`[${Colors.blue(debugName)}][getCourse] Processed!`);
+    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Closing all conections`);
+    await Promise.all(BrowserGenerator.closeAll(browsers));
+
     return finalRes;
   }
 

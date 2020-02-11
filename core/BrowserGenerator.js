@@ -22,6 +22,17 @@ class BrowserGenerator {
     return res;
   }
 
+  /**
+   * Close all browser connections
+   * 
+   * @param {Array} browserInstances 
+   */
+  static closeAll(browserInstances) {
+    return browserInstances.map(browser => {
+      return browser.close()
+    })
+  }
+
 }
 
 module.exports = BrowserGenerator

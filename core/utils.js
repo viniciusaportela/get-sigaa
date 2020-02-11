@@ -12,23 +12,27 @@ function cleanText(text) {
 
 /**
  * Process a table and returns a Array
- * @param {String} TableHtml Table HTML
+ * @param {Object} table Table in cheerio Element
+ * @param {Object} config configuration
+ * @param {('structured'|,'flat')} config.mode
+ * @param {String} config.title
  */
-function processTable(TableHtml) {
-  let cleanText = require('');
+function processTable(table, config) {
+  $ = require('cheerio')
 
   let response = {
-    modalidade: this.courses[index].title,
+    modalidade: config.title,
     categorias: []
   }
   let curIndex = -1
 
-  let $ = require('cheerio').load(TableHtml)
-  $('tr').toArray().map(element => {
+  console.log($(table).find('tr').lenght);
+  $(table).find('tr').toArray().map(element => {
     let child = $(element).find('.subFormulario')
 
     if (child.length) {
       // New category
+      console.log('new category');
       response.categorias.push({
         categoria: cleanText(child.text()),
         cursos: [],
@@ -36,6 +40,7 @@ function processTable(TableHtml) {
       curIndex++;
     } else {
       // Add Course
+      console.log('new course');
       let courseInfo = $(element).children().toArray();
       let nome = cleanText($(courseInfo[0]).text());
       let sede = cleanText($(courseInfo[1]).text());

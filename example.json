@@ -1,22 +1,4401 @@
 [
   {
     "modalidade": "Técnico",
-    "categorias": []
+    "categorias": [
+      {
+        "categoria": "ABAE/DEPIE - Abaet/ Dpto Ens. Pesq.Pós Ino. Ext ",
+        "cursos": [
+          {
+            "nome": "157 - TÉCNICO EM AQUICULTURA",
+            "sede": "Abaetetuba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=157&lc=pt_BR"
+          },
+          {
+            "nome": "204 - TÉCNICO EM EDIFICAÇÕES INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Abaetetuba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=204&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Abaetetuba",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=669081&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Abaetetuba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=184&lc=pt_BR"
+          },
+          {
+            "nome": "229 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Abaetetuba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=229&lc=pt_BR"
+          },
+          {
+            "nome": "185 - TÉCNICO EM INFORMÁTICA PARA INTERNET",
+            "sede": "Abaetetuba",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=1697717&lc=pt_BR"
+          },
+          {
+            "nome": "228 - TÉCNICO EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA INTEGRADO",
+            "sede": "Abaetetuba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=2084923&lc=pt_BR"
+          },
+          {
+            "nome": "208 - TÉCNICO EM MECÂNICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Abaetetuba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=208&lc=pt_BR"
+          },
+          {
+            "nome": "151 - TÉCNICO EM MEIO AMBIENTE",
+            "sede": "Abaetetuba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=151&lc=pt_BR"
+          },
+          {
+            "nome": "220 - TÉCNICO EM MEIO AMBIENTE INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Abaetetuba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=377169&lc=pt_BR"
+          },
+          {
+            "nome": "150 - TÉCNICO EM SANEAMENTO",
+            "sede": "Abaetetuba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=150&lc=pt_BR"
+          },
+          {
+            "nome": "109 - TÉCNICO EM SEGURANÇA DO TRABALHO",
+            "sede": "Abaetetuba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=109&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "ALTAMIR/DE - ALTAMIRA/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "198 - TÉCNICO EM ADMINISTRAÇÃO",
+            "sede": "Altamira",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1243228&lc=pt_BR"
+          },
+          {
+            "nome": "148 - TÉCNICO EM EDIFICAÇÕES",
+            "sede": "Altamira",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30772&lc=pt_BR"
+          },
+          {
+            "nome": "204 - TÉCNICO EM EDIFICAÇÕES INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Altamira",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1866639&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Altamira",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30780&lc=pt_BR"
+          },
+          {
+            "nome": "229 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Altamira",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1864829&lc=pt_BR"
+          },
+          {
+            "nome": "185 - TÉCNICO EM INFORMÁTICA PARA INTERNET",
+            "sede": "Altamira",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30781&lc=pt_BR"
+          },
+          {
+            "nome": "185 - TÉCNICO EM INFORMÁTICA PARA INTERNET",
+            "sede": "Altamira",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=1696808&lc=pt_BR"
+          },
+          {
+            "nome": "151 - TÉCNICO EM MEIO AMBIENTE",
+            "sede": "Altamira",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30775&lc=pt_BR"
+          },
+          {
+            "nome": "183 - TÉCNICO EM REDES DE COMPUTADORES",
+            "sede": "Altamira",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30779&lc=pt_BR"
+          },
+          {
+            "nome": "150 - TÉCNICO EM SANEAMENTO",
+            "sede": "Altamira",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30774&lc=pt_BR"
+          },
+          {
+            "nome": "109 - TÉCNICO EM SEGURANÇA DO TRABALHO",
+            "sede": "Altamira",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30769&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "ANANIND/DE - ANANINDEUA/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Ananindeua",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=59786&lc=pt_BR"
+          },
+          {
+            "nome": "229 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Ananindeua",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=2090907&lc=pt_BR"
+          },
+          {
+            "nome": "185 - TÉCNICO EM INFORMÁTICA PARA INTERNET",
+            "sede": "Ananindeua",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=1696329&lc=pt_BR"
+          },
+          {
+            "nome": "151 - TÉCNICO EM MEIO AMBIENTE",
+            "sede": "Ananindeua",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=408023&lc=pt_BR"
+          },
+          {
+            "nome": "220 - TÉCNICO EM MEIO AMBIENTE INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Ananindeua",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=3837041&lc=pt_BR"
+          },
+          {
+            "nome": "109 - TÉCNICO EM SEGURANÇA DO TRABALHO",
+            "sede": "Ananindeua",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=59728&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "BEL/DEN - BELÉM/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "196 - TÉCNICO EM AGENTE COMUNITÁRIO DE SAÚDE",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30672&lc=pt_BR"
+          },
+          {
+            "nome": "166 - TÉCNICO EM AGRIMENSURA",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30652&lc=pt_BR"
+          },
+          {
+            "nome": "207 - TÉCNICO EM AGRIMENSURA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30680&lc=pt_BR"
+          },
+          {
+            "nome": "157 - TÉCNICO EM AQUICULTURA",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30648&lc=pt_BR"
+          },
+          {
+            "nome": "226 - TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1121702&lc=pt_BR"
+          },
+          {
+            "nome": "179 - TÉCNICO EM DESIGN DE INTERIORES",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30662&lc=pt_BR"
+          },
+          {
+            "nome": "227 - TÉCNICO EM DESIGN DE INTERIORES INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30691&lc=pt_BR"
+          },
+          {
+            "nome": "148 - TÉCNICO EM EDIFICAÇÕES",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30642&lc=pt_BR"
+          },
+          {
+            "nome": "204 - TÉCNICO EM EDIFICAÇÕES INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30678&lc=pt_BR"
+          },
+          {
+            "nome": "103 - TÉCNICO EM ELETRÔNICA",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30626&lc=pt_BR"
+          },
+          {
+            "nome": "211 - TÉCNICO EM ELETRÔNICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30684&lc=pt_BR"
+          },
+          {
+            "nome": "108 - TÉCNICO EM ELETROTÉCNICA",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30630&lc=pt_BR"
+          },
+          {
+            "nome": "210 - TÉCNICO EM ELETROTÉCNICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30683&lc=pt_BR"
+          },
+          {
+            "nome": "188 - TÉCNICO EM ESTRADAS",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1368125&lc=pt_BR"
+          },
+          {
+            "nome": "205 - TÉCNICO EM ESTRADAS INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30679&lc=pt_BR"
+          },
+          {
+            "nome": "134 - TÉCNICO EM EVENTOS",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30637&lc=pt_BR"
+          },
+          {
+            "nome": "224 - TÉCNICO EM EVENTOS INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30690&lc=pt_BR"
+          },
+          {
+            "nome": "167 - TÉCNICO EM GEODÉSIA E CARTOGRAFIA",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30653&lc=pt_BR"
+          },
+          {
+            "nome": "133 - TÉCNICO EM GUIA DE TURISMO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30636&lc=pt_BR"
+          },
+          {
+            "nome": "128 - TÉCNICO EM HOSPEDAGEM",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=2107313&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30665&lc=pt_BR"
+          },
+          {
+            "nome": "229 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30692&lc=pt_BR"
+          },
+          {
+            "nome": "101 - TÉCNICO EM MECÂNICA",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30624&lc=pt_BR"
+          },
+          {
+            "nome": "208 - TÉCNICO EM MECÂNICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30681&lc=pt_BR"
+          },
+          {
+            "nome": "102 - TÉCNICO EM METALURGIA",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30625&lc=pt_BR"
+          },
+          {
+            "nome": "173 - TÉCNICO EM MINERAÇÃO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30658&lc=pt_BR"
+          },
+          {
+            "nome": "215 - TÉCNICO EM MINERAÇÃO INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30688&lc=pt_BR"
+          },
+          {
+            "nome": "156 - TÉCNICO EM PESCA",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30647&lc=pt_BR"
+          },
+          {
+            "nome": "162 - TÉCNICO EM QUÍMICA",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30651&lc=pt_BR"
+          },
+          {
+            "nome": "202 - TÉCNICO EM QUÍMICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30676&lc=pt_BR"
+          },
+          {
+            "nome": "150 - TÉCNICO EM SANEAMENTO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30645&lc=pt_BR"
+          },
+          {
+            "nome": "206 - TÉCNICO EM SANEAMENTO INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=2132170&lc=pt_BR"
+          },
+          {
+            "nome": "109 - TÉCNICO EM SEGURANÇA DO TRABALHO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30631&lc=pt_BR"
+          },
+          {
+            "nome": "136 - TÉCNICO EM TELECOMUNICAÇÕES",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30638&lc=pt_BR"
+          },
+          {
+            "nome": "212 - TÉCNICO EM TELECOMUNICAÇÕES INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Belém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=30685&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "BRAGAN/DE - BRAGANÇA/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "35 - TÉCNICO EM AGROPECUÁRIA",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31112&lc=pt_BR"
+          },
+          {
+            "nome": "218 - TÉCNICO EM AGROPECUÁRIA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31113&lc=pt_BR"
+          },
+          {
+            "nome": "157 - TÉCNICO EM AQUICULTURA",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31115&lc=pt_BR"
+          },
+          {
+            "nome": "216 - TÉCNICO EM AQÜICULTURA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31116&lc=pt_BR"
+          },
+          {
+            "nome": "226 - TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=257021&lc=pt_BR"
+          },
+          {
+            "nome": "148 - TÉCNICO EM EDIFICAÇÕES",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31125&lc=pt_BR"
+          },
+          {
+            "nome": "204 - TÉCNICO EM EDIFICAÇÕES INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31126&lc=pt_BR"
+          },
+          {
+            "nome": "134 - TÉCNICO EM EVENTOS",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31132&lc=pt_BR"
+          },
+          {
+            "nome": "224 - TÉCNICO EM EVENTOS INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=97095&lc=pt_BR"
+          },
+          {
+            "nome": "128 - TÉCNICO EM HOSPEDAGEM",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31135&lc=pt_BR"
+          },
+          {
+            "nome": "129 - TÉCNICO EM HOSPEDAGEM INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31136&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Bragança",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=669166&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31137&lc=pt_BR"
+          },
+          {
+            "nome": "229 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31139&lc=pt_BR"
+          },
+          {
+            "nome": "156 - TÉCNICO EM PESCA",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31149&lc=pt_BR"
+          },
+          {
+            "nome": "217 - TÉCNICO EM PESCA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31150&lc=pt_BR"
+          },
+          {
+            "nome": "109 - TÉCNICO EM SEGURANÇA DO TRABALHO",
+            "sede": "Bragança",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31161&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "BREVES/DE - BREVES/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "35 - TÉCNICO EM AGROPECUÁRIA",
+            "sede": "Breves",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=126728&lc=pt_BR"
+          },
+          {
+            "nome": "218 - TÉCNICO EM AGROPECUÁRIA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Breves",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=3844892&lc=pt_BR"
+          },
+          {
+            "nome": "157 - TÉCNICO EM AQUICULTURA",
+            "sede": "Curralinho",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=3600711&lc=pt_BR"
+          },
+          {
+            "nome": "157 - TÉCNICO EM AQUICULTURA",
+            "sede": "Breves",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=3559472&lc=pt_BR"
+          },
+          {
+            "nome": "148 - TÉCNICO EM EDIFICAÇÕES",
+            "sede": "Breves",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31068&lc=pt_BR"
+          },
+          {
+            "nome": "134 - TÉCNICO EM EVENTOS",
+            "sede": "Breves",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31067&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Breves",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31070&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA - EAD",
+            "sede": "Breves",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=669177&lc=pt_BR"
+          },
+          {
+            "nome": "229 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Breves",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=963463&lc=pt_BR"
+          },
+          {
+            "nome": "185 - TÉCNICO EM INFORMÁTICA PARA INTERNET",
+            "sede": "Breves",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=964556&lc=pt_BR"
+          },
+          {
+            "nome": "151 - TÉCNICO EM MEIO AMBIENTE",
+            "sede": "Breves",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=961115&lc=pt_BR"
+          },
+          {
+            "nome": "150 - TÉCNICO EM SANEAMENTO",
+            "sede": "Breves",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=126886&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "CAMETA/DE - Cametá/Depart.Ens., Pesq., P.Grad. Inov. ",
+        "cursos": [
+          {
+            "nome": "35 - TÉCNICO EM AGROPECUÁRIA",
+            "sede": "Cametá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1047841&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Cametá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=81888&lc=pt_BR"
+          },
+          {
+            "nome": "185 - TÉCNICO EM INFORMÁTICA PARA INTERNET",
+            "sede": "Cametá",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=1696732&lc=pt_BR"
+          },
+          {
+            "nome": "159 - TÉCNICO EM RECURSOS PESQUEIROS",
+            "sede": "Cametá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1676579&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "CASTANH/DE - CASTANHAL/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "166 - TÉCNICO EM AGRIMENSURA",
+            "sede": "Castanhal",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=5567077&lc=pt_BR"
+          },
+          {
+            "nome": "191 - TÉCNICO EM AGROINDÚSTRIA",
+            "sede": "Castanhal",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31182&lc=pt_BR"
+          },
+          {
+            "nome": "35 - TÉCNICO EM AGROPECUÁRIA",
+            "sede": "Castanhal",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31184&lc=pt_BR"
+          },
+          {
+            "nome": "218 - TÉCNICO EM AGROPECUÁRIA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Castanhal",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31185&lc=pt_BR"
+          },
+          {
+            "nome": "231 - TÉCNICO EM AGROPECUÁRIA INTEGRADO AO ENSINO MÉDIO - PROEJA",
+            "sede": "Castanhal",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=59504&lc=pt_BR"
+          },
+          {
+            "nome": "160 - TÉCNICO EM FLORESTAS",
+            "sede": "Castanhal",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31199&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Castanhal",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=31203&lc=pt_BR"
+          },
+          {
+            "nome": "229 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Castanhal",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1235462&lc=pt_BR"
+          },
+          {
+            "nome": "151 - TÉCNICO EM MEIO AMBIENTE",
+            "sede": "Castanhal",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31206&lc=pt_BR"
+          },
+          {
+            "nome": "183 - TÉCNICO EM REDES DE COMPUTADORES",
+            "sede": "Castanhal",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31218&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "CONC.AR/DE - CONCEIÇÃO DO ARAGUAIA/DIRET. DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "35 - TÉCNICO EM AGROPECUÁRIA",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31232&lc=pt_BR"
+          },
+          {
+            "nome": "218 - TÉCNICO EM AGROPECUÁRIA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=287263&lc=pt_BR"
+          },
+          {
+            "nome": "157 - TÉCNICO EM AQUICULTURA",
+            "sede": "Santana do Araguaia",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=31238&lc=pt_BR"
+          },
+          {
+            "nome": "148 - TÉCNICO EM EDIFICAÇÕES",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31245&lc=pt_BR"
+          },
+          {
+            "nome": "204 - TÉCNICO EM EDIFICAÇÕES INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=87532&lc=pt_BR"
+          },
+          {
+            "nome": "134 - TÉCNICO EM EVENTOS",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31251&lc=pt_BR"
+          },
+          {
+            "nome": "224 - TÉCNICO EM EVENTOS INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=992939&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Santana do Araguaia",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=64316&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Conceição do Araguaia",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=64263&lc=pt_BR"
+          },
+          {
+            "nome": "186 - TÉCNICO EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1674124&lc=pt_BR"
+          },
+          {
+            "nome": "197 - TÉCNICO EM MARKETING",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31268&lc=pt_BR"
+          },
+          {
+            "nome": "151 - TÉCNICO EM MEIO AMBIENTE",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=5614646&lc=pt_BR"
+          },
+          {
+            "nome": "150 - TÉCNICO EM SANEAMENTO",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31263&lc=pt_BR"
+          },
+          {
+            "nome": "109 - TÉCNICO EM SEGURANÇA DO TRABALHO",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31265&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "ITAIT/DEPI - Itaituba/ Dep Ens, Pes, Pós, Inov e Ext ",
+        "cursos": [
+          {
+            "nome": "200 - EDIFICAÇÕES INTEGRADO AO ENSINO MÉDIO - PROEJA",
+            "sede": "Itaituba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=5616050&lc=pt_BR"
+          },
+          {
+            "nome": "155 - TÉCNICO EM AGROECOLOGIA",
+            "sede": "Itaituba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1720722&lc=pt_BR"
+          },
+          {
+            "nome": "233 - TÉCNICO EM AGROECOLOGIA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Itaituba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=5596251&lc=pt_BR"
+          },
+          {
+            "nome": "204 - TÉCNICO EM EDIFICAÇÕES INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Itaituba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31279&lc=pt_BR"
+          },
+          {
+            "nome": "229 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Itaituba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31286&lc=pt_BR"
+          },
+          {
+            "nome": "185 - TÉCNICO EM INFORMÁTICA PARA INTERNET",
+            "sede": "Rurópolis",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=1800655&lc=pt_BR"
+          },
+          {
+            "nome": "185 - TÉCNICO EM INFORMÁTICA PARA INTERNET",
+            "sede": "Aveiro",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=1800624&lc=pt_BR"
+          },
+          {
+            "nome": "185 - TÉCNICO EM INFORMÁTICA PARA INTERNET",
+            "sede": "Trairão",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=1800664&lc=pt_BR"
+          },
+          {
+            "nome": "206 - TÉCNICO EM SANEAMENTO INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Itaituba",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31299&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "MARI/DEPIE - Maraba I/ Dir Ens, Pes, Pós-g, Ino, Ext ",
+        "cursos": [
+          {
+            "nome": "166 - TÉCNICO EM AGRIMENSURA",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31308&lc=pt_BR"
+          },
+          {
+            "nome": "104 - TÉCNICO EM AUTOMAÇÃO INDUSTRIAL",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31312&lc=pt_BR"
+          },
+          {
+            "nome": "237 - TÉCNICO EM CONTROLE AMBIENTAL INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=343385&lc=pt_BR"
+          },
+          {
+            "nome": "148 - TÉCNICO EM EDIFICAÇÕES",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31324&lc=pt_BR"
+          },
+          {
+            "nome": "37 - TÉCNICO EM ELETROMECÂNICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1015924&lc=pt_BR"
+          },
+          {
+            "nome": "108 - TECNICO EM ELETROTÉCNICA",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31328&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31332&lc=pt_BR"
+          },
+          {
+            "nome": "229 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=309596&lc=pt_BR"
+          },
+          {
+            "nome": "101 - TÉCNICO EM MECÂNICA",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31336&lc=pt_BR"
+          },
+          {
+            "nome": "102 - TÉCNICO EM METALURGIA",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1003596&lc=pt_BR"
+          },
+          {
+            "nome": "162 - TÉCNICO EM QUÍMICA",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31348&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "OBID/DEPIE - OBIDOS/ DPTO. ENS. PES. POS. INOV. EXT ",
+        "cursos": [
+          {
+            "nome": "155 - TÉCNICO EM AGROECOLOGIA",
+            "sede": "Óbidos",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=3243514&lc=pt_BR"
+          },
+          {
+            "nome": "233 - TÉCNICO EM AGROECOLOGIA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Óbidos",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=3668867&lc=pt_BR"
+          },
+          {
+            "nome": "187 - TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS",
+            "sede": "Óbidos",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=303461&lc=pt_BR"
+          },
+          {
+            "nome": "226 - TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Óbidos",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=825755&lc=pt_BR"
+          },
+          {
+            "nome": "222 - TÉCNICO EM FLORESTAS INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Óbidos",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=826041&lc=pt_BR"
+          },
+          {
+            "nome": "213 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO-PROEJA",
+            "sede": "Óbidos",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=2074820&lc=pt_BR"
+          },
+          {
+            "nome": "185 - TÉCNICO EM INFORMÁTICA PARA INTERNET",
+            "sede": "Óbidos",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=1799967&lc=pt_BR"
+          },
+          {
+            "nome": "186 - TÉCNICO EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA",
+            "sede": "Óbidos",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=59839&lc=pt_BR"
+          },
+          {
+            "nome": "151 - TÉCNICO EM MEIO AMBIENTE",
+            "sede": "Óbidos",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1383893&lc=pt_BR"
+          },
+          {
+            "nome": "220 - TÉCNICO EM MEIO AMBIENTE INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Óbidos",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=2168017&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "OBID/DG - Óbidos/ Diretoria Geral ",
+        "cursos": [
+          {
+            "nome": "175 - GEOLOGIA",
+            "sede": "Óbidos",
+            "participacao": "",
+            "link": "portal.jsf?id=31415&lc=pt_BR"
+          },
+          {
+            "nome": "186 - MANUTENÇÃO E SUPORTE EM INFORMÁTICA",
+            "sede": "Óbidos",
+            "participacao": "",
+            "link": "portal.jsf?id=31416&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "PARAUAP/DE - PARAUAPEBAS/DIRETORIA ENS.,PESQ.EXTENSÃO ",
+        "cursos": [
+          {
+            "nome": "199 - TÉCNICO EM ELETROELETRÔNICA",
+            "sede": "Parauapebas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=65556&lc=pt_BR"
+          },
+          {
+            "nome": "222 - TÉCNICO EM ELETROELETRÔNICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Parauapebas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1201787&lc=pt_BR"
+          },
+          {
+            "nome": "37 - TÉCNICO EM ELETROMECÂNICA",
+            "sede": "Parauapebas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1047996&lc=pt_BR"
+          },
+          {
+            "nome": "37 - TÉCNICO EM ELETROMECÂNICA - CANAÃ DOS CARAJÁS",
+            "sede": "Canaã dos Carajás",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=5035468&lc=pt_BR"
+          },
+          {
+            "nome": "238 - TÉCNICO EM MANUTENÇÃO DE MÁQUINAS PESADAS INTEG AO ENS MÉDIO - PROEJA",
+            "sede": "Parauapebas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1241665&lc=pt_BR"
+          },
+          {
+            "nome": "101 - TÉCNICO EM MECÂNICA",
+            "sede": "Parauapebas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=59316&lc=pt_BR"
+          },
+          {
+            "nome": "208 - TÉCNICO EM MECÂNICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Parauapebas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=237173&lc=pt_BR"
+          },
+          {
+            "nome": "151 - TÉCNICO EM MEIO AMBIENTE",
+            "sede": "Parauapebas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1047871&lc=pt_BR"
+          },
+          {
+            "nome": "151 - TÉCNICO EM MEIO AMBIENTE - CANAÃ DOS CARAJÁS",
+            "sede": "Canaã dos Carajás",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=5035372&lc=pt_BR"
+          },
+          {
+            "nome": "220 - TÉCNICO EM MEIO AMBIENTE INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Parauapebas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=5603269&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "PGM/DEPIE - PARAG/Depto. Ens .Pes. Pós. Inov. Ext. ",
+        "cursos": [
+          {
+            "nome": "198 - TÉCNICO EM ADMINISTRAÇÃO",
+            "sede": "Paragominas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=2069819&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Paragominas",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=669182&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Paragominas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=82007&lc=pt_BR"
+          },
+          {
+            "nome": "229 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Paragominas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=829609&lc=pt_BR"
+          },
+          {
+            "nome": "138 - TÉCNICO EM INSTRUMENTO MUSICAL",
+            "sede": "Paragominas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=5565976&lc=pt_BR"
+          },
+          {
+            "nome": "220 - TÉCNICO EM MEIO AMBIENTE INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Paragominas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=828810&lc=pt_BR"
+          },
+          {
+            "nome": "183 - TÉCNICO EM REDES DE COMPUTADORES",
+            "sede": "Paragominas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1229897&lc=pt_BR"
+          },
+          {
+            "nome": "239 - TÉCNICO EM REDES DE COMPUTADORES INTEGRADO AO ENSINO MÉDIO - PROEJA",
+            "sede": "Paragominas",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=3815288&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "RUR.MAR/DE - RURAL MARABÁ/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "233 - TÉCNICO EM AGROECOLOGIA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31424&lc=pt_BR"
+          },
+          {
+            "nome": "191 - TÉCNICO EM AGROINDÚSTRIA",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=92810&lc=pt_BR"
+          },
+          {
+            "nome": "35 - TÉCNICO EM AGROPECUÁRIA",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=74387&lc=pt_BR"
+          },
+          {
+            "nome": "230 - TÉCNICO EM AGROPECUÁRIA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31426&lc=pt_BR"
+          },
+          {
+            "nome": "157 - TÉCNICO EM AQUICULTURA",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31431&lc=pt_BR"
+          },
+          {
+            "nome": "221 - TÉCNICO EM COOPERATIVISMO",
+            "sede": "Marabá",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=134088&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "SANTA/DEPI - SANTAREM/ DPTO. ENS. PES. POS. INOV. EXT ",
+        "cursos": [
+          {
+            "nome": "35 - TÉCNICO EM AGROPECUÁRIA",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31459&lc=pt_BR"
+          },
+          {
+            "nome": "218 - TÉCNICO EM AGROPECUÁRIA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31460&lc=pt_BR"
+          },
+          {
+            "nome": "157 - TÉCNICO EM AQUICULTURA",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31462&lc=pt_BR"
+          },
+          {
+            "nome": "216 - TÉCNICO EM AQÜICULTURA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31463&lc=pt_BR"
+          },
+          {
+            "nome": "148 - TÉCNICO EM EDIFICAÇÕES",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31474&lc=pt_BR"
+          },
+          {
+            "nome": "204 - TÉCNICO EM EDIFICAÇÕES INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31475&lc=pt_BR"
+          },
+          {
+            "nome": "133 - TÉCNICO EM GUIA DE TURISMO",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31481&lc=pt_BR"
+          },
+          {
+            "nome": "128 - TÉCNICO EM HOSPEDAGEM",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31483&lc=pt_BR"
+          },
+          {
+            "nome": "129 - TÉCNICO EM HOSPEDAGEM - PROEJA",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=527367&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31484&lc=pt_BR"
+          },
+          {
+            "nome": "229 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31486&lc=pt_BR"
+          },
+          {
+            "nome": "213 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO-PROEJA",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31487&lc=pt_BR"
+          },
+          {
+            "nome": "185 - TÉCNICO EM INFORMÁTICA PARA INTERNET",
+            "sede": "Santarém",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=1770066&lc=pt_BR"
+          },
+          {
+            "nome": "217 - TÉCNICO EM PESCA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31503&lc=pt_BR"
+          },
+          {
+            "nome": "150 - TÉCNICO EM SANEAMENTO",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31512&lc=pt_BR"
+          },
+          {
+            "nome": "206 - TÉCNICO EM SANEAMENTO INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Santarém",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31513&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "TUCUR/DEPI - Tuc/ Dir. de Ens. Pesq. Pós, Inov. e Ext ",
+        "cursos": [
+          {
+            "nome": "196 - TÉCNICO EM AGENTE COMUNITÁRIO DE SAÚDE",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31582&lc=pt_BR"
+          },
+          {
+            "nome": "207 - TÉCNICO EM AGRIMENSURA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1185462&lc=pt_BR"
+          },
+          {
+            "nome": "232 - TÉCNICO EM AGRIMENSURA INTEGRADO AO ENSINO MÉDIO- PROEJA",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31587&lc=pt_BR"
+          },
+          {
+            "nome": "157 - TÉCNICO EM AQUICULTURA",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31588&lc=pt_BR"
+          },
+          {
+            "nome": "209 - TÉCNICO EM AQUICULTURA INTEGRADO AO ENSINO MÉDIO-PROEJA",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31589&lc=pt_BR"
+          },
+          {
+            "nome": "148 - TÉCNICO EM EDIFICAÇÕES",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31601&lc=pt_BR"
+          },
+          {
+            "nome": "204 - TÉCNICO EM EDIFICAÇÕES INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31602&lc=pt_BR"
+          },
+          {
+            "nome": "200 - TÉCNICO EM EDIFICAÇÕES INTEGRADO AO ENSINO MÉDIO-PROEJA",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31603&lc=pt_BR"
+          },
+          {
+            "nome": "108 - TÉCNICO EM ELETROTÉCNICA",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31608&lc=pt_BR"
+          },
+          {
+            "nome": "210 - TÉCNICO EM ELETROTÉCNICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31612&lc=pt_BR"
+          },
+          {
+            "nome": "203 - TÉCNICO EM ELETROTÉCNICA INTEGRADO AO ENSINO MÉDIO-PROEJA",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31613&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Tucuruí",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=669043&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31618&lc=pt_BR"
+          },
+          {
+            "nome": "229 - TÉCNICO EM INFORMÁTICA INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31620&lc=pt_BR"
+          },
+          {
+            "nome": "185 - TÉCNICO EM INFORMÁTICA PARA INTERNET",
+            "sede": "Tucuruí",
+            "participacao": "A Distância",
+            "link": "portal.jsf?id=1696976&lc=pt_BR"
+          },
+          {
+            "nome": "186 - TÉCNICO EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31622&lc=pt_BR"
+          },
+          {
+            "nome": "228 - TÉCNICO EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA INT. AO ENSINO MÉDIO",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31623&lc=pt_BR"
+          },
+          {
+            "nome": "151 - TÉCNICO EM MEIO AMBIENTE",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31624&lc=pt_BR"
+          },
+          {
+            "nome": "220 - TÉCNICO EM MEIO AMBIENTE INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=981750&lc=pt_BR"
+          },
+          {
+            "nome": "159 - TÉCNICO EM RECURSOS PESQUEIROS",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31637&lc=pt_BR"
+          },
+          {
+            "nome": "150 - TÉCNICO EM SANEAMENTO",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=65908&lc=pt_BR"
+          },
+          {
+            "nome": "206 - TÉCNICO EM SANEAMENTO INTEGRADO AO ENSINO MÉDIO",
+            "sede": "Tucuruí",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=31641&lc=pt_BR"
+          }
+        ]
+      },
+      {
+        "categoria": "VIGI/DEPIE - Vigia/ Dpto. Ens. Pes. Pós. Inov. Ext ",
+        "cursos": [
+          {
+            "nome": "157 - TÉCNICO EM AQUICULTURA",
+            "sede": "Vigia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=1229339&lc=pt_BR"
+          },
+          {
+            "nome": "134 - TÉCNICO EM EVENTOS",
+            "sede": "Vigia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=82497&lc=pt_BR"
+          },
+          {
+            "nome": "128 - TÉCNICO EM HOSPEDAGEM",
+            "sede": "Vigia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=5841289&lc=pt_BR"
+          },
+          {
+            "nome": "184 - TÉCNICO EM INFORMÁTICA",
+            "sede": "Vigia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=82154&lc=pt_BR"
+          },
+          {
+            "nome": "159 - TÉCNICO EM RECURSOS PESQUEIROS",
+            "sede": "Vigia",
+            "participacao": "Presencial",
+            "link": "portal.jsf?id=80751&lc=pt_BR"
+          }
+        ]
+      }
+    ]
   },
   {
     "modalidade": "Graduação",
-    "categorias": []
+    "categorias": [
+      {
+        "categoria": "ABAE/DEPIE - Abaet/ Dpto Ens. Pesq.Pós Ino. Ext ",
+        "cursos": [
+          {
+            "nome": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+            "sede": "Abaetetuba",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM EDUCAÇÃO DO CAMPO (313)",
+            "sede": "Moju",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM PEDAGOGIA",
+            "sede": "Moju",
+            "participacao": "Presencial"
+          }
+        ]
+      },
+      {
+        "categoria": "ALTAMIR/DE - ALTAMIRA/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "LICENCIATURA EM INFORMÁTICA",
+            "sede": "Altamira",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM PEDAGOGIA",
+            "sede": "Altamira",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+            "sede": "Altamira",
+            "participacao": "Presencial"
+          }
+        ]
+      },
+      {
+        "categoria": "BEL/DEN - BELÉM/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "CIÊNCIAS BIOLÓGICAS, LICENCIATURA",
+            "sede": "São Luiz do Anauá",
+            "participacao": "A Distância"
+          },
+          {
+            "nome": "ENGENHARIA DE CONTROLE E AUTOMAÇÃO",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "ENGENHARIA DE MATERIAIS",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM FÍSICA",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM GEOGRAFIA",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM HISTÓRIA",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM INFORMÁTICA",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM LETRAS - LÍNGUA PORTUGUESA",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM MATEMÁTICA",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM PEDAGOGIA",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM QUÍMICA",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "MATEMÁTICA, LICENCIATURA",
+            "sede": "Salinópolis",
+            "participacao": "A Distância"
+          },
+          {
+            "nome": "PEDAGOGIA, LICENCIATURA",
+            "sede": "Uiramutã",
+            "participacao": "A Distância"
+          },
+          {
+            "nome": "PEDAGOGIA, LICENCIATURA",
+            "sede": "Breves",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "QUÍMICA, LICENCIATURA",
+            "sede": "São João da Baliza",
+            "participacao": "A Distância"
+          },
+          {
+            "nome": "TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS (79)",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM ELETROTÉCNICA INDUSTRIAL",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM GESTÃO HOSPITALAR",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM GESTÃO PÚBLICA",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM SANEAMENTO AMBIENTAL",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM SISTEMAS DE TELECOMUNICAÇÕES",
+            "sede": "Belém",
+            "participacao": "Presencial"
+          }
+        ]
+      },
+      {
+        "categoria": "BRAGAN/DE - BRAGANÇA/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "CIÊNCIAS BIOLÓGICAS, LICENCIATURA",
+            "sede": "Bragança",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "EDUCAÇÃO DO CAMPO - CIÊNCIAS HUMANAS E SOCIAIS, LICENCIATURA",
+            "sede": "Bragança",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "EDUCAÇÃO DO CAMPO, LICENCIATURA (313)",
+            "sede": "Bragança",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM EDUCAÇÃO DO CAMPO (327)",
+            "sede": "Bragança",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM FÍSICA",
+            "sede": "Bragança",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM GEOGRAFIA",
+            "sede": "Bragança",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM AGROECOLOGIA",
+            "sede": "Bragança",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM GESTÃO AMBIENTAL",
+            "sede": "Bragança",
+            "participacao": "Presencial"
+          }
+        ]
+      },
+      {
+        "categoria": "BREVES/DE - BREVES/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "EDUCAÇÃO DO CAMPO, LICENCIATURA",
+            "sede": "Breves",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM AGROECOLOGIA",
+            "sede": "Breves",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM GESTÃO AMBIENTAL",
+            "sede": "Breves",
+            "participacao": "Presencial"
+          }
+        ]
+      },
+      {
+        "categoria": "CASTANH/DE - CASTANHAL/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "AGRONOMIA",
+            "sede": "Castanhal",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "ENGENHARIA DE ALIMENTOS",
+            "sede": "Castanhal",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "ENGENHARIA DE PESCA",
+            "sede": "Castanhal",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM EDUCAÇÃO DO CAMPO",
+            "sede": "Castanhal",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "LICENCIATURA EM INFORMÁTICA",
+            "sede": "Castanhal",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM AQUICULTURA",
+            "sede": "Castanhal",
+            "participacao": "Presencial"
+          }
+        ]
+      },
+      {
+        "categoria": "CONC.AR/DE - CONCEIÇÃO DO ARAGUAIA/DIRET. DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "AGRONOMIA",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "ENGENHARIA AMBIENTAL E SANITÁRIA",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "HISTÓRIA, LICENCIATURA",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM GESTÃO AMBIENTAL",
+            "sede": "Conceição do Araguaia",
+            "participacao": "Presencial"
+          }
+        ]
+      },
+      {
+        "categoria": "ITAIT/DEPI - Itaituba/ Dep Ens, Pes, Pós, Inov e Ext ",
+        "cursos": [
+          {
+            "nome": "CIÊNCIAS BIOLÓGICAS, LICENCIATURA",
+            "sede": "Itaituba",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "ENGENHARIA AGRONÔMICA",
+            "sede": "Itaituba",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+            "sede": "Itaituba",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM SANEAMENTO AMBIENTAL",
+            "sede": "Itaituba",
+            "participacao": "Presencial"
+          }
+        ]
+      },
+      {
+        "categoria": "MARI/DEPIE - Maraba I/ Dir Ens, Pes, Pós-g, Ino, Ext ",
+        "cursos": [
+          {
+            "nome": "TECNOLOGIA EM ELETROTÉCNICA INDUSTRIAL",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM GESTÃO AMBIENTAL",
+            "sede": "Marabá",
+            "participacao": "Presencial"
+          }
+        ]
+      },
+      {
+        "categoria": "PARAUAP/DE - PARAUAPEBAS/DIRETORIA ENS.,PESQ.EXTENSÃO ",
+        "cursos": [
+          {
+            "nome": "TECNOLOGIA EM AUTOMAÇÃO INDUSTRIAL",
+            "sede": "Parauapebas",
+            "participacao": "Presencial"
+          }
+        ]
+      },
+      {
+        "categoria": "RUR.MAR/DE - RURAL MARABÁ/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "EDUCAÇÃO DO CAMPO, LICENCIATURA",
+            "sede": "Marabá",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "EDUCAÇÃO DO CAMPO, LICENCIATURA (313 - PARFOR)",
+            "sede": "Marabá",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "EDUCAÇÃO DO CAMPO, LICENCIATURA (313 - PROCAMPO)",
+            "sede": "Marabá",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "EDUCAÇÃO DO CAMPO, LICENCIATURA (327 - PARFOR)",
+            "sede": "Marabá",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "EDUCAÇÃO DO CAMPO, LICENCIATURA (327 - PROCAMPO)",
+            "sede": "Marabá",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM AGROECOLOGIA",
+            "sede": "Marabá",
+            "participacao": "Presencial"
+          }
+        ]
+      },
+      {
+        "categoria": "SANTA/DEPI - SANTAREM/ DPTO. ENS. PES. POS. INOV. EXT ",
+        "cursos": [
+          {
+            "nome": "ENGENHARIA CIVIL",
+            "sede": "Santarém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "PEDAGOGIA, LICENCIATURA",
+            "sede": "Juruti",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "PEDAGOGIA, LICENCIATURA",
+            "sede": "Santarém",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "PEDAGOGIA, LINCENCIATURA",
+            "sede": "Monte Alegre",
+            "participacao": "Presencial"
+          }
+        ]
+      },
+      {
+        "categoria": "TUCUR/DEPI - Tuc/ Dir. de Ens. Pesq. Pós, Inov. e Ext ",
+        "cursos": [
+          {
+            "nome": "CIÊNCIAS BIOLÓGICAS, LICENCIATURA",
+            "sede": "Tucuruí",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "ENGENHARIA SANITÁRIA E AMBIENTAL",
+            "sede": "Tucuruí",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM REDES DE COMPUTADORES",
+            "sede": "Tucuruí",
+            "participacao": "Presencial"
+          },
+          {
+            "nome": "TECNOLOGIA EM SANEAMENTO AMBIENTAL",
+            "sede": "Tucuruí",
+            "participacao": "Presencial"
+          }
+        ]
+      }
+    ]
   },
   {
     "modalidade": "Formação Complementar",
-    "categorias": []
+    "categorias": [
+      {
+        "categoria": "ABAE/DEPIE - Abaet/ Dpto Ens. Pesq.Pós Ino. Ext ",
+        "cursos": [
+          {
+            "nome": "AGRICULTOR AGROFLORESTAL",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "AGRICULTOR FAMILIAR",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "AGRICULTOR ORGÂNICO",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "AJUDANTE DE MANUTENÇÃO MECÂNICA",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "ARTESÃO DE BIOJÓIAS",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "ASSISTENTE ADMINISTRATIVO",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "ASSISTENTE DE DRAMATURGIA - PRONATEC",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR ADMINISTRATIVO",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE FISCALIZAÇÃO AMBIENTAL",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE MANUTENÇÃO ELETROMECÂNICA",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE OPERACAO DE ESTACAO DE TRATAMENTO DE AGUAS",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE OPERAÇÃO DE ESTAÇÃO DE TRATAMENTO DE ÁGUAS",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR TÉCNICO EM AGROPECUÁRIA",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "CONFECCIONADOR DE BIJUTERIAS - PRONATEC",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "CONTADOR DE HISTORIA",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "CRIADOR DE PEIXES EM VIVEIROS ESCAVADOS",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "DESENHISTA DA CONSTRUÇÃO CIVIL",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "DESENHISTA MECÂNICO",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "DISC JÓQUEI (DJ) - PRONATEC",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "EDITOR DE VÍDEO - PRONATEC",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "FOTÓGRAFO - PRONATEC",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "INCLUSÃO, TECNOLOGIA ASSISTIVA E LIBRAS BÁSICO",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALAÇÕES ELÉTRICAS RESIDENCIAIS",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALADOR E REPARADOR DE REDES DE COMPUTADORES",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "LIBRAS BÁSICO",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "MECÂNICA DE AUTOMÓVEIS",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "MECÂNICO DE MÁQUINAS INDUSTRIAIS",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "MESTRE DE OBRAS",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTAGEM E MANUTENÇÃO DE COMPUTADORES",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "MÚSICO DE BANDA - PRONATEC",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "ORGANIZADOR DE EVENTOS",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "PISCICULTOR",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "PREPARADOR DE PESCADO",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "PRODUTOR DE MANDIOCA",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR WEB",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "SONOPLASTA - PRONATEC",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "TORNEIRO MECÂNICO",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "TRATAMENTO DE ÁGUA SIMPLIFICADO PARA PEQUENAS COMUNIDADES",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          },
+          {
+            "nome": "VITRINISTA - PRONATEC",
+            "sede": "Abaetetuba",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "ALTAMIR/DE - ALTAMIRA/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "AGRICULTOR FAMILIAR",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR ADMINISTRATIVO",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR ADMINISTRATIVO",
+            "sede": "Brasil Novo",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR ADMINISTRATIVO",
+            "sede": "Senador José Porfírio",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR ADMINISTRATIVO",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE MANUTENÇÃO DE EDIFICAÇÕES ",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE RECURSOS HUMANOS",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR EM BAR, RESTAURANTE E SIMILARES",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR EM COMPUTAÇÃO",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "CADISTA PARA A CONSTRUÇÃO CIVIL",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "CADISTA PARA A CONSTRUÇÃO CIVIL",
+            "sede": "Brasil Novo",
+            "participacao": ""
+          },
+          {
+            "nome": "CARPINTEIRO DE OBRAS",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "CULINÁRIA",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "ENCANADOR INSTALADOR PREDIAL",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "ESCRITA CRIATIVA: REDAÇÃO PARA O ENEM",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "ESPANHOL BÁSICO",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "ESPANHOL BÁSICO",
+            "sede": "Brasil Novo",
+            "participacao": ""
+          },
+          {
+            "nome": "ESPANHOL BÁSICO",
+            "sede": "Senador José Porfírio",
+            "participacao": ""
+          },
+          {
+            "nome": "ESPECIALIZAÇÃO PROFIS. EM LEVANTAMENTO TOPOGRÁFICO PLANIALTIMÉTRICO",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "GARÇOM",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "GARÇOM",
+            "sede": "Brasil Novo",
+            "participacao": ""
+          },
+          {
+            "nome": "INGLÊS BÁSICO",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "INTRODUÇÃO À LÓGICA: O RACIOCÍNIO LÓGICO",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "MONITOR DE RECREAÇÃO",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES",
+            "sede": "Brasil Novo",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES",
+            "sede": "Senador José Porfírio",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE COMPUTADOR",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE PRODUÇÃO EM UNIDADE DE TRATAMENTO DE RESÍDUOS SÓLIDOS",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "ORGANIZADOR DE EVENTOS",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "ORGANIZADOR DE EVENTOS",
+            "sede": "Brasil Novo",
+            "participacao": ""
+          },
+          {
+            "nome": "ORGANIZADOR DE EVENTOS",
+            "sede": "Senador José Porfírio",
+            "participacao": ""
+          },
+          {
+            "nome": "PREPARADOR DE PESCADO",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "PROCESSAMENTO DE PRODUTOS DE ORIGEM ANIMAL E VEGETAL",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR DE DISPOSITIVOS MÓVEIS COM ANDROID",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR DE SISTEMAS",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR WEB",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "RECEPCIONISTA EM MEIOS DE HOSPEDAGEM",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "TEORIA E HISTÓRIA DA ARTE",
+            "sede": "Altamira",
+            "participacao": ""
+          },
+          {
+            "nome": "TEORIA E HISTÓRIA DA ARTE",
+            "sede": "Brasil Novo",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "ANANIND/DE - ANANINDEUA/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "AGENTE DE COMBATE ÀS ENDEMIAS",
+            "sede": "Ananindeua",
+            "participacao": ""
+          },
+          {
+            "nome": "ASSISTENTE EM ADMINISTRAÇÃO",
+            "sede": "Ananindeua",
+            "participacao": ""
+          },
+          {
+            "nome": "CONSELHEIROS DOS DIREITOS E CONSELHEIROS TUTELARES DA CRIANÇA E DO ADOLESCENTE NA AMAZÔNIA LEGAL",
+            "sede": "Ananindeua",
+            "participacao": ""
+          },
+          {
+            "nome": "ESPANHOL BÁSICO",
+            "sede": "Ananindeua",
+            "participacao": ""
+          },
+          {
+            "nome": "MESTRE DE OBRAS",
+            "sede": "Ananindeua",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE COMPUTADOR",
+            "sede": "Ananindeua",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "BEL/DEN - BELÉM/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "ADMINISTRADOR DE BANCO DE DADOS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "AGENTE COMUNITÁRIO DE SAÚDE",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "AGENTE DE COMBATE ÀS ENDEMIAS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "AGENTE DE INFORMAÇÕES TURÍSTICAS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "AGENTE DE INSPEÇÃO DE QUALIDADE",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "ALFABETIZAÇÃO AVANÇADA EM LÍNGUA PORTUGUESA,MATEMÁTICA,TECNOL.E EMPREENDEDORISMO",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "ALMOXARIFE",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "ANÁLISE FORENSE DE DOCUMENTOS DIGITAIS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "APLICADOR DE REVESTIMENTO CERÂMICO",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "ATENDENTE DE NUTRIÇÃO",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR ADMINISTRATIVO",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE CONTABILIDADE",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE FISCALIZAÇÃO AMBIENTAL",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE GARÇOM (CUMIM)",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE LABORATÓRIO DE SANEAMENTO",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE OPERAÇÃO DE ESTAÇÃO DE TRATAMENTO DE ÁGUAS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR EM ADMINISTRAÇÃO DE REDES",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR EM WEB DESIGN",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "BALCONISTA DE FARMÁCIA",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "CADISTA PARA A CONSTRUÇÃO CIVIL",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "CAMAREIRA EM MEIOS DE HOSPEDAGEM",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "CIÊNCIA DA OPINIÃO E SISTEMAS DE RECOMENDAÇÃO",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "CONTADOR DE HISTÓRIAS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "CUIDADOR DE IDOSO",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "CUIDADOR INFANTIL",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "DESENHISTA DE PRODUTOS GRÁFICOS WEB",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "EDITOR DE PROJETO VISUAL GRÁFICO",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "ELABORAÇÃO DE PROJ. PEDAGÓGICOS DE CURSOS TÉCNICOS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "ENCANADOR INSTALADOR PREDIAL",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "HIGIENISTA DE SERVIÇOS DE SAÚDE",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "HORTICULTOR ORGÂNICO",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "INGLÊS APLICADO A SERVIÇOS TURÍSTICOS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "INICIAÇÃO PROF.EM AGENTE DE SAÚDE",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALAÇÕES ELÉTRICAS RESIDENCIAIS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALADOR DE REDE DE TV A CABO E VIA SATÉLITE",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALADOR E REPARADOR DE EQUIPAMENTOS DE TRANSMISSÃO EM TELEFONIA",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALADOR E REPARADOR DE LINHAS E SISTEMAS DE TELEFONIA",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALADOR E REPARADOR DE REDE DE TV A CABO",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALADOR E REPARADOR DE REDES DE COMPUTADORES",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "INTELIGÊNCIA  ARTIFICIAL MULTIAGENTE E APLICAÇÕES",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "INTRODUÇÃO À INTERPRETAÇÃO EM LÍNGUA BRASILEIRA DE SINAIS (LIBRAS/PORTUGUÊS)",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "LINGUAGEM DE PROGRAMAÇÃO EM JAVA",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "MANUTENÇÃO DE MINERAÇÃO-ELETROELETRÔNICA II",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "MANUTENÇÃO DE MINERAÇÃO-MECÂNICO II",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "MASSAGISTA",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "MECÂNICA DE AUTOMÓVEIS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "MECÂNICO DE MÁQUINAS INDUSTRIAIS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "MONITOR DO USO E CONSERVAÇÃO DOS RECURSOS HÍDRICOS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTAGEM E MANUTENÇÃO DE COMPUTADORES",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERAÇÃO DE MINA II",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERAÇÃO EM PROCESSOS METALÚRGICOS DO NÍQUEL",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE CÂMERA",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE COMPUTADOR",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE EDITORAÇÃO ELETRÔNICA",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE PRODUÇÃO EM UNIDADE DE TRATAMENTO DE RESÍDUOS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE PRODUÇÃO EM UNIDADE DE TRATAMENTO DE RESÍDUOS SÓLIDOS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "ORGANIZADOR DE EVENTOS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "PEDREIRO DE ALVENARIA",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "PHOTOSHOP CS5",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "PREPARADOR DE PESCADO",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR DE SISTEMAS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR WEB",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "RECEPCIONISTA DE EVENTOS",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "RECEPCIONISTA EM MEIOS DE HOSPEDAGEM",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "RECREADOR",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "REGENTE DE BANDA",
+            "sede": "Belém",
+            "participacao": ""
+          },
+          {
+            "nome": "VENDEDOR",
+            "sede": "Belém",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "BRAGAN/DE - BRAGANÇA/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "AGENTE DE INCLUSÃO DIGITAL EM CENTROS PÚBLICOS DE ACESSO À INTERNET",
+            "sede": "Augusto Corrêa",
+            "participacao": ""
+          },
+          {
+            "nome": "AGENTE DE INFORMAÇÕES TURÍSTICAS",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "AGRICULTOR FAMILIAR",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "ALFABETIZAÇÃO AVANÇADA EM LÍNGUA PORTUGUESA,MATEMÁTICA,TECNOL.E EMPREENDEDORISMO",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE AGENCIAMENTO DE VIAGEM",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE BIBLIOTECA",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE FISCALIZAÇÃO AMBIENTAL",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "CADISTA PARA A CONSTRUÇÃO CIVIL",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "CONDUTOR AMBIENTAL LOCAL",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "CONSELHEIROS DOS DIREITOS E CONSELHEIROS TUTELARES DA CRIANÇA E DO ADOLESCENTE NA AMAZÔNIA LEGAL",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "CRIADOR DE PEIXES EM TANQUE REDE",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "CRIADOR DE PEIXES EM VIVEIROS ESCAVADOS",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "DESENHISTA DA CONSTRUÇÃO CIVIL",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "DESENVOLVIMENTO DE PROJETO SOBRE PESCA ARTESANAL",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALADOR E REPARADOR DE REDES DE COMPUTADORES",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "MARISQUEIRO",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "MESTRE DE OBRAS",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "MONITOR AMBIENTAL",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "MONITOR DE RECREAÇÃO",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTAGEM E MANUTENÇÃO DE COMPUTADORES",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE COMPUTADOR",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "PINTOR DE OBRAS",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "PISCICULTOR",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "PRODUTOR DE PRODUTOS APÍCOLAS",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR WEB",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "QUALIDADE NO ATENDIMENTO",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "RECEPCIONISTA",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "RECEPCIONISTA DE EVENTOS",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "RECEPCIONISTA EM MEIOS DE HOSPEDAGEM",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "VIOLÃO",
+            "sede": "Bragança",
+            "participacao": ""
+          },
+          {
+            "nome": "VIVEIRISTA DE PLANTAS E FLORES",
+            "sede": "Bragança",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "BREVES/DE - BREVES/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "AGRICULTOR FAMILIAR",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "ATENDENTE DE LANCHONETE",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "ATENDENTE DE LANCHONETE (MULHERES MIL/PRONATEC)",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE OPERAÇÃO DE ESTAÇÃO DE TRATAMENTO DE ÁGUAS",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR EM ADMINISTRAÇÃO DE REDES",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR EM SERVIÇO DE HOSPEDAGEM",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "CADISTA PARA A CONSTRUÇÃO CIVIL",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "CONSELHEIROS DOS DIREITOS E CONSELHEIROS TUTELARES DA CRIANÇA E DO ADOLESCENTE NA AMAZÔNIA LEGAL",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "COSTUREIRO INDUSTRIAL DO VESTUÁRIO (MULHERES MIL/PRONATEC)",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "CRIADOR DE PEIXES EM VIVEIROS ESCAVADOS",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "DESENHISTA DA CONSTRUÇÃO CIVIL",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "FRUTICULTOR",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "INGLÊS BÁSICO",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "JARDINEIRO",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "MANEJO FLORESTAL COMUNITÁRIO E FAMILIAR",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "MESTRE DE OBRAS",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTAGEM E MANUTENÇÃO DE COMPUTADORES",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE COMPUTADOR",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR EM BENEFICIAMENTO DE PESCADO",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "ORGANIZADOR DE EVENTOS",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "PISCICULTOR",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "RECEPCIONISTA DE EVENTOS",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "RECEPCIONISTA EM MEIOS DE HOSPEDAGEM",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "REGENTE DE CORAL - PRONATEC",
+            "sede": "Breves",
+            "participacao": ""
+          },
+          {
+            "nome": "SUINOCULTOR",
+            "sede": "Breves",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "CAMETA/DE - Cametá/Depart.Ens., Pesq., P.Grad. Inov. ",
+        "cursos": [
+          {
+            "nome": "AGRICULTOR FAMILIAR",
+            "sede": "Cametá",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR TÉCNICO EM AGROECOLOGIA",
+            "sede": "Cametá",
+            "participacao": ""
+          },
+          {
+            "nome": "CRIADOR DE PEIXES ORNAMENTAIS",
+            "sede": "Cametá",
+            "participacao": ""
+          },
+          {
+            "nome": "ESPANHOL BÁSICO",
+            "sede": "Cametá",
+            "participacao": ""
+          },
+          {
+            "nome": "INGLÊS BÁSICO",
+            "sede": "Cametá",
+            "participacao": ""
+          },
+          {
+            "nome": "LIBRAS - BÁSICO",
+            "sede": "Cametá",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES - EJA",
+            "sede": "Cametá",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE BENEFICIAMENTO DE PESCADO",
+            "sede": "Cametá",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE COMPUTADOR",
+            "sede": "Cametá",
+            "participacao": ""
+          },
+          {
+            "nome": "PISCICULTOR",
+            "sede": "Cametá",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "CASTANH/DE - CASTANHAL/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "AGRICULTOR AGROFLORESTAL",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "AGRICULTOR FAMILIAR",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "APICULTOR",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "AQUICULTOR",
+            "sede": "Curuçá",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE GEOPROCESSAMENTO - EAD",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR EM ADMINISTRAÇÃO DE REDES",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR TÉCNICO EM AGROPECUÁRIA",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "AVICULTOR",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO ",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "ENCANADOR INSTALADOR PREDIAL",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "ESPECIALIZAÇÃO TÉCNICA EM GEORREFERENCIAMENTO DE IMÓVEIS RURAIS",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "FRUTICULTOR",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "HORTICULTOR ORGÂNICO",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALADOR E REPARADOR DE REDES DE COMPUTADORES",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "MESTRE DE OBRAS",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE COMPUTADOR",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "PADEIRO E CONFEITEIRO",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "PISCICULTOR",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "PREPARADOR DE DERIVADOS DE LEITE",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "PRODUTOR DE DERIVADOS DO LEITE",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "PRODUTOR DE EMBUTIDOS E DEFUMADOS",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "PRODUTOR DE MANDIOCA",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR DE SISTEMAS",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "VENDEDOR",
+            "sede": "Castanhal",
+            "participacao": ""
+          },
+          {
+            "nome": "VIVEIRICULTOR",
+            "sede": "Castanhal",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "CONC.AR/DE - CONCEIÇÃO DO ARAGUAIA/DIRET. DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "AGENTE DE DESENVOLVIMENTO SOCIOAMBIENTAL",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "AGENTE DE GESTÃO DE RESÍDUOS SÓLIDOS",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "AGENTE DE LIMPEZA URBANA",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "AGRICULTOR FAMILIAR",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR ADMINISTRATIVO",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE OPERAÇÃO DE ESTAÇÃO DE TRATAMENTO DE ÁGUAS",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "BENEFICIADOR E PROCESSADOR DE PRODUTOS AGROPECUÁRIOS",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "BOVINOCULTOR DE LEITE",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "CONSELHEIROS DOS DIREITOS E CONSELHEIROS TUTELARES DA CRIANÇA E DO ADOLESCENTE NA AMAZÔNIA LEGAL",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "DESENHISTA DA CONSTRUÇÃO CIVIL",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO ",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "GARÇOM BÁSICO",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "GESTÃO SOLIDÁRIA E COMERCIALIZAÇÃO APLICADA",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALADOR E REPARADOR DE REDES DE COMPUTADORES",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "LIBRAS BÁSICO",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "MONITOR AMBIENTAL",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "MONITOR DE RECREAÇÃO",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTAGEM E MANUTENÇÃO DE COMPUTADORES",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE COMPUTADOR",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "RECEPCIONISTA",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "TURISMO NO MEIO RURAL",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "VENDEDOR",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          },
+          {
+            "nome": "VIVEIRICULTOR (MULHERES MIL/PRONATEC)",
+            "sede": "Conceição do Araguaia",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "ITAIT/DEPI - Itaituba/ Dep Ens, Pes, Pós, Inov e Ext ",
+        "cursos": [
+          {
+            "nome": "AGENTE DE PROJETOS SOCIAIS",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "AGRICULTOR ORGÂNICO",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "APLICADOR DE REVESTIMENTO CERÂMICO",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "ARTESÃO DE PINTURA EM TECIDO (MULHERES MIL)",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR ADMINISTRATIVO",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE COZINHA ",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE GESTÃO DE MEIO AMBIENTE, SAÚDE E SEGURANÇA NA CONSTRUÇÃO C",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "CORTE E COSTURA",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "COSTUREIRA",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO ",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "HORTICULTOR ORGÂNICO",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALADOR DE REDE DE TV A CABO E VIA SATÉLITE",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "LIBRAS BÁSICO",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "MESTRE DE OBRAS",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "MONITOR AMBIENTAL",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "MONITOR DE RECREAÇÃO",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE COMPUTADOR",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "PINTOR DE OBRAS",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "PRODUÇÃO TEXTUAL DISSERTATIVO-ARGUMENTATIVO",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "PRODUTOR DE EMBUTIDOS E DEFUMADOS",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR WEB",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR WEB",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "PROJETOS SOCIAIS",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "REPRESENTANTE COMERCIAL",
+            "sede": "Itaituba",
+            "participacao": ""
+          },
+          {
+            "nome": "VENDEDOR",
+            "sede": "Itaituba",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "MARI/DEPIE - Maraba I/ Dir Ens, Pes, Pós-g, Ino, Ext ",
+        "cursos": [
+          {
+            "nome": "ADMINISTRADOR DE BANCO DE DADOS",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "AGENTE DE PROJETOS SOCIAIS",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "ARTESÃO DE PINTURA EM TECIDO (MULHERES MIL/PRONATEC)",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "ASSISTENTE DE PLANEJAMENTO E CONTROLE DE PRODUÇÃO",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILAR DE CONTABILIDADE",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR ADMINISTRATIVO",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE RECURSOS HUMANOS",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR FINANCEIRO",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "BOBINADOR ELETRICISTA",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "CADISTA PARA A CONSTRUÇÃO CIVIL",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "CONSELHEIROS DOS DIREITOS E CONSELHEIROS TUTELARES DA CRIANÇA E DO ADOLESCENTE NA AMAZÔNIA LEGAL",
+            "sede": "Marabá",
+            "participacao": ""
+          },
+          {
+            "nome": "COPEIRA (MULHERES MIL/PRONATEC)",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "COSTUREIRA (MULHERES MIL/PRONATEC)",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "DESENHISTA DA CONSTRUÇÃO CIVIL",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "ELETRICISTA DE LINHAS ELÉTRICAS DE ALTA E BAIXA TENSÃO",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "ELETRICISTA DE REDE DE DISTRIBUIÇÃO DE ENERGIA ELÉTRICA",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "ELETRICISTA INDUSTRIAL",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "ENCANADOR INSTALADOR PREDIAL",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALADOR E REPARADOR DE REDES DE COMPUTADORES",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "MANICURE E PEDICURE (MULHERES MIL/PRONATEC)",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "MANUTENÇÃO DE FERROVIA-ELETRELETRÔNICA II",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "MECÂNICO DE MÁQUINAS INDUSTRIAIS",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "OFICIAL DE VIA PERMANENTE",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE COMPUTADOR",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE FERROVIA",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE PROCESSOS QUÍMICOS INDUSTRIAIS",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR DE SISTEMAS",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR WEB",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "RECEPCIONISTA",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "TORNEIRO MECÂNICO",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          },
+          {
+            "nome": "VENDEDOR",
+            "sede": "MARABÁ INDUSTRIAL",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "OBID/DEPIE - OBIDOS/ DPTO. ENS. PES. POS. INOV. EXT ",
+        "cursos": [
+          {
+            "nome": "AGENTE DE PROJETOS SOCIAIS",
+            "sede": "Óbidos",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "PARAUAP/DE - PARAUAPEBAS/DIRETORIA ENS.,PESQ.EXTENSÃO ",
+        "cursos": [
+          {
+            "nome": "ELETRICISTA INDUSTRIAL",
+            "sede": "Parauapebas",
+            "participacao": ""
+          },
+          {
+            "nome": "MATENEDOR FERROVIÁRIO DE VIA PERMANENTE",
+            "sede": "Parauapebas",
+            "participacao": ""
+          },
+          {
+            "nome": "MECÂNICA DE MÁQUINAS INDUSTRIAIS",
+            "sede": "Parauapebas",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES",
+            "sede": "Parauapebas",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE EQUIPAMENTOS DE MINA",
+            "sede": "Parauapebas",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "PGM/DEPIE - PARAG/Depto. Ens .Pes. Pós. Inov. Ext. ",
+        "cursos": [
+          {
+            "nome": "AGRICULTOR FAMILIAR",
+            "sede": "Paragominas",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES",
+            "sede": "Paragominas",
+            "participacao": ""
+          },
+          {
+            "nome": "REGENTE DE BANDA",
+            "sede": "Paragominas",
+            "participacao": ""
+          },
+          {
+            "nome": "REGENTE DE CORAL",
+            "sede": "Paragominas",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "RUR.MAR/DE - RURAL MARABÁ/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "ACONSELHADOR EM DEPENDÊNCIA QUÍMICA",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "ADMINISTRADOR DE BANCO DE DADOS",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "AGRICULTOR AGROFLORESTAL",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "AGRICULTOR FAMILIAR INTEGRADO AO ENSINO FUNDAMENTAL - PROEJA",
+            "sede": "Marabá",
+            "participacao": ""
+          },
+          {
+            "nome": "AGRICULTOR ORGÂNICO COM ÊNFASE EM COLETA E DESTINAÇÃO DOS RESÍDUOS DOMÉSTICOS DAS COMUNIDADES RURAIS",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "AGRICULTURA FAMILIAR COM ÊNFASE EM CAPTAÇÃO ALTERNATIVA DE ÁGUA",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "AGRICULTURA FAMILIAR COM ÊNFASE EM SEMENTES CRIOULAS E SOBERANIA ALIMENTAR",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "AGRICULTURA FAMILIAR E CAMPONESA",
+            "sede": "Piçarra",
+            "participacao": ""
+          },
+          {
+            "nome": "APERFEIÇOAMENTO EM EDUCAÇÃO DO CAMPO, AGROECOLOGIA E QUESTÕES PEDAGÓGICAS",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "APERFEIÇOAMENTO EM EDUCAÇÃO DO CAMPO, AGROECOLOGIA E QUESTÕES PEDAGÓGICAS",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "APERFEIÇOAMENTO EM EDUCAÇÃO DO CAMPO, AGROECOLOGIA E QUESTÕES PEDAGÓGICAS",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "ARTESANATO BÁSICO (MULHERES MIL)",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "ARTESÃO DE BIOJÓIAS",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "ATENDENTE DE LANCHONETE",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "AVICULTOR",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "AVICULTOR DE CORTE",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "BENEFICIAMENTO DE PRODUTOS",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "BOVINOCULTOR DE LEITE",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "CULINÁRIA",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "FRUTICULTOR",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "HORTICULTOR ORGÂNICO",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE COMPUTADOR",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "SUINOCULTOR",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          },
+          {
+            "nome": "VIVEIRICULTOR",
+            "sede": "MARABÁ RURAL",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "SANTA/DEPI - SANTAREM/ DPTO. ENS. PES. POS. INOV. EXT ",
+        "cursos": [
+          {
+            "nome": "ABATEDOR DE ANIMAIS DE PEQUENO, MÉDIO E GRANDE PORTE",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "ADMINISTRADOR DE BANCO DE DADOS",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "AGENTE DE COMBATE ÀS ENDEMIAS",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "ALFABETIZAÇÃO AVANÇADA EM LÍNGUA PORTUGUESA,MATEMÁTICA,TECNOL.E EMPREENDEDORISMO",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "ASSISTENTE DE PROJETO VISUAL GRÁFICO",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE AGENCIAMENTO DE VIAGEM",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE GEOPROCESSAMENTO",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE PROGRAMADOR DE DISPOSITIVOS MÓVEIS",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE RECURSOS HUMANOS",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR EM ADMINISTRAÇÃO DE REDES",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR EM WEB DESIGN",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "BENEFICIADOR DE MINÉRIO",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "BOVINOCULTOR DE LEITE",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "CONDUTOR DE VISITANTES",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "CONSELHEIROS DOS DIREITOS E CONSELHEIROS TUTELARES DA CRIANÇA E DO ADOLESCENTE NA AMAZÔNIA LEGAL",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "CRIADOR DE ANIMAIS DE GRANDE PORTE",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "CUIDADOR INFANTIL",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "GARÇOM BÁSICO",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "HORTICULTOR DE LEGUMES ORGÂNICOS",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALADOR E REPARADOR DE REDES DE COMPUTADORES",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "MERENDEIRA",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "MONITOR AMBIENTAL",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "MONITOR DE RECREAÇÃO",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTAGEM E MANUTENÇÃO DE COMPUTADORES",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE COMPUTADOR",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE MINA",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE PRODUÇÃO EM UNIDADE DE TRATAMENTO DE RESÍDUOS SÓLIDOS",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "ORGANIZADOR DE EVENTOS",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "PEDREIRO DE REVESTIMENTO EM ARGAMASSA",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "PISCICULTOR",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "PIZZAIOLO",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "PORTEIRO E VIGIA",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "PREPARADOR DE DERIVADOS DE LEITE",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "PREPARADOR DE PESCADO",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR DE SISTEMAS",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "PROGRAMADOR WEB",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "RECEPCIONISTA DE EVENTOS",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "RECEPCIONISTA EM MEIOS DE HOSPEDAGEM",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "RESTAURAÇÃO ECOLÓGICA PARA ADEQUAÇÃO AMBIENTAL DE PROPRIEDADES RURAIS",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "TORNEIRO MECÂNICO",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "TRABALHADOR DOMÉSTICO",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "VIVEIRICULTOR",
+            "sede": "Santarém",
+            "participacao": ""
+          },
+          {
+            "nome": "VIVEIRISTA DE PLANTAS E FLORES",
+            "sede": "Santarém",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "TUCUR/DEPI - Tuc/ Dir. de Ens. Pesq. Pós, Inov. e Ext ",
+        "cursos": [
+          {
+            "nome": "AGENTE DE COMBATE ÀS ENDEMIAS",
+            "sede": "Tucuruí",
+            "participacao": ""
+          },
+          {
+            "nome": "AGENTE DE DESENVOLVIMENTO COOPERATIVISTA",
+            "sede": "Tucuruí",
+            "participacao": ""
+          },
+          {
+            "nome": "AGENTE DE PROJETOS SOCIAIS",
+            "sede": "Tucuruí",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE FISCALIZAÇÃO AMBIENTAL",
+            "sede": "Tucuruí",
+            "participacao": ""
+          },
+          {
+            "nome": "BENEFICIAMENTO DO PESCADO",
+            "sede": "Tucuruí",
+            "participacao": ""
+          },
+          {
+            "nome": "CERIMONIALISTA E MESTRE DE CERIMÔNIAS",
+            "sede": "Tucuruí",
+            "participacao": ""
+          },
+          {
+            "nome": "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO ",
+            "sede": "Tucuruí",
+            "participacao": ""
+          },
+          {
+            "nome": "MESTRE DE OBRAS",
+            "sede": "Tucuruí",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES",
+            "sede": "Tucuruí",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE BENEFICIAMENTO DO PESCADO",
+            "sede": "Tucuruí",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE BENEFICIAMENTO DO PESCADO-MULHERES MIL",
+            "sede": "Tucuruí",
+            "participacao": ""
+          },
+          {
+            "nome": "ORGANIZADOR DE EVENTOS",
+            "sede": "Tucuruí",
+            "participacao": ""
+          },
+          {
+            "nome": "PEDREIRO DE ACABAMENTO ",
+            "sede": "Tucuruí",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "VIGI/DEPIE - Vigia/ Dpto. Ens. Pes. Pós. Inov. Ext ",
+        "cursos": [
+          {
+            "nome": "AGENTE DE RECEPÇÃO E RESERVAS EM MEIOS DE HOSPEDAGEM",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "AUXILIAR DE RECURSOS HUMANOS",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "DESENVIVMENTO EDUCIONAL E SOCIAL: MÉTODOS E TÉCNICAS DE ESTUDOS PARA TODOS NÍVEIS ESCOLARES",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "DESENVOLVEDOR DE APLICATIVOS PARA MÍDIAS DIGITAIS",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "GARÇOM",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "INSTALADOR E REPARADOR DE REDES DE COMPUTADORES",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "INTRODUÇÃO AO ALGORÍTMO",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "LEITORES E INICIAÇÃO CIENTÍFICA",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "MANUTENÇÃO DE MOTORES MARÍTIMOS DE DOIS TEMPOS",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "MATEMÁTICA BÁSICA",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "MECÂNICO DE MOTORES DE POPA",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "MONITOR AMBIENTAL",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "MONTADOR E REPARADOR DE COMPUTADORES",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "OPERADOR DE COMPUTADOR",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "ORGANIZADOR DE EVENTOS",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "PESCADOR PROFISSIONAL",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "PREPARADOR DE PESCADO",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "TÉCNICO EM EVENTOS",
+            "sede": "Vigia",
+            "participacao": ""
+          },
+          {
+            "nome": "VENDEDOR",
+            "sede": "Vigia",
+            "participacao": ""
+          }
+        ]
+      }
+    ]
   },
   {
     "modalidade": "Pós Graduação Stricto Sensu",
-    "categorias": []
+    "categorias": [
+      {
+        "categoria": "PPGDRSGEA - PÓS GRADUAÇÃO EM DESENVOLVIMENTO RURAL SUSTENTÁVEL E GESTÃO DE EMPREEND. AGROALIMENTARES ",
+        "cursos": [
+          {
+            "nome": "MESTRADO PROFISS. EM DESENVOL. RURAL E GESTÃO DE EMPREENDIMENTOS AGROALIMENTARES",
+            "sede": "MESTRADO",
+            "participacao": "Castanhal",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "categoria": "PPGEMAT - MESTRADO PROFISSIONAL EM ENGENHARIA DE MATERIAIS ",
+        "cursos": [
+          {
+            "nome": "MESTRADO PROFISSIONAL EM ENGENHARIA DE MATERIAIS",
+            "sede": "MESTRADO",
+            "participacao": "Belém",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "categoria": "PROFEPT - PROGRAMA DE PÓS-GRADUAÇÃO EM EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA ",
+        "cursos": [
+          {
+            "nome": "MESTRADO EM EDUCAÇÃO PROFISSIONAL E TECNOLÓGICA - PROFEPT",
+            "sede": "MESTRADO",
+            "participacao": "Belém",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "categoria": "PROFNIT - PROGRAMA DE PÓS-GRADUAÇÃO EM PROPRIEDADE INTELECTUAL E TRANSFERÊNCIA DE TECNOLOGIA PARA A INOVAÇÃO ",
+        "cursos": [
+          {
+            "nome": "MESTRADO EM PROPRIEDADE INTELECTUAL E TRANSFERÊNCIA DE TECNOLOGIA PARA INOVAÇÃO",
+            "sede": "MESTRADO",
+            "participacao": "Belém",
+            "link": "#"
+          }
+        ]
+      }
+    ]
   },
   {
     "modalidade": "Pós Graduação Lato Sensu",
-    "categorias": []
+    "categorias": [
+      {
+        "categoria": "ABAE/DEPIE - Abaet/ Dpto Ens. Pesq.Pós Ino. Ext ",
+        "cursos": [
+          {
+            "nome": "EDUCAÇÃO DE JOVENS E ADULTOS: SABERES RIBEIRNHOS E PRÁTICA PEDAGÓGICA",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "ALTAMIR/DE - ALTAMIRA/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "TECNOLOGIAS EDUCACIONAIS",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "BEL/DEN - BELÉM/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "ENSINO DE GEOGRAFIA",
+            "sede": "Não informada",
+            "participacao": ""
+          },
+          {
+            "nome": "ESPECIALIZAÇÃO EM INFORMÁTICA APLICADA À EDUCAÇÃO - TURMA 2",
+            "sede": "Não informada",
+            "participacao": ""
+          },
+          {
+            "nome": "SABERES, LINGUAGENS E PRÁTICAS EDUCACIONAIS NA AMAZÔNIA - TURMA 2",
+            "sede": "Não informada",
+            "participacao": ""
+          },
+          {
+            "nome": "SAUDE PUBLICA",
+            "sede": "Não informada",
+            "participacao": ""
+          },
+          {
+            "nome": "TECNOLOGIA SOCIAL EM SANEAMENTO, SAÚDE E AMBIENTE NA AMAZÔNIA",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "BRAGAN/DE - BRAGANÇA/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "CIÊNCIAS AMBIENTAIS E DESENVOLVIMENTO SUSTENTÁVEL DA AMAZÔNIA TURMA 2",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "BREVES/DE - BREVES/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "DOCÊNCIA PARA A EDUCAÇÃO PROFISSIONAL, CIENTÍFICA E TECNOLÓGICA - TURMA 2",
+            "sede": "Não informada",
+            "participacao": ""
+          },
+          {
+            "nome": "ESPECIALIZAÇÃO EM AGROEXTRATIVISMO SUSTENTÁVEL E DESENVOLVIMENTO RURAL-TURMA1",
+            "sede": "Não informada",
+            "participacao": ""
+          },
+          {
+            "nome": "ESPECIALIZAÇÃO EM AGROEXTRATIVISMO SUSTENTÁVEL E DESENVOLVIMENTO RURAL -TURMA 2",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "CAMETA/DE - Cametá/Depart.Ens., Pesq., P.Grad. Inov. ",
+        "cursos": [
+          {
+            "nome": "ESPECIALIZAÇÃO EM AGROECOLOGIA - TURMA 2",
+            "sede": "Não informada",
+            "participacao": ""
+          },
+          {
+            "nome": "INFORMÁTICA EDUCATIVA - TURMA 3",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "CASTANH/DE - CASTANHAL/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "EDUCAÇÃO DO CAMPO E DESENVOLVIMENTO SUSTENTÁVEL NA AMAZÔNIA",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "CONC.AR/DE - CONCEIÇÃO DO ARAGUAIA/DIRET. DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "DOCÊNCIA PARA EDUCAÇÃO PROFISSIONAL, CIENTÍFICA E TECNOLÓGICA TURMA 4",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "MARI/DEPIE - Maraba I/ Dir Ens, Pes, Pós-g, Ino, Ext ",
+        "cursos": [
+          {
+            "nome": "GESTÃO DA PRODUÇÃO INDUSTRIAL",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "OBID/DEPIE - OBIDOS/ DPTO. ENS. PES. POS. INOV. EXT ",
+        "cursos": [
+          {
+            "nome": "DOCÊNCIA EM EDUCAÇÃO AMBIENTAL - POLO JURUTI",
+            "sede": "Não informada",
+            "participacao": ""
+          },
+          {
+            "nome": "DOCÊNCIA EM EDUCAÇÃO AMBIENTAL - POLO TERRA SANTA",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "PARAUAP/DE - PARAUAPEBAS/DIRETORIA ENS.,PESQ.EXTENSÃO ",
+        "cursos": [
+          {
+            "nome": "DOCÊNCIA PARA A EDUCAÇÃO PROFISSIONAL, CIENTÍFICA E TECNOLÓGICA TURMA 2",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "PGM/DEPIE - PARAG/Depto. Ens .Pes. Pós. Inov. Ext. ",
+        "cursos": [
+          {
+            "nome": "EDUCAÇÃO DO CAMPO, AGROECOLOGIA E QUESTOES PEDAGÓGICAS TURMA 2",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "RUR.MAR/DE - RURAL MARABÁ/DIRETORIA DE ENSINO ",
+        "cursos": [
+          {
+            "nome": "CURSO DE ESPECIALIZAÇÃO EM EDUCAÇÃO DO CAMPO, AGRICULTURA FAMILIAR E CURRÍCULO",
+            "sede": "Não informada",
+            "participacao": ""
+          },
+          {
+            "nome": "EDUCAÇÃO DO CAMPO, AGRICULTURA FAMILIAR E CURRÍCULO - TURMA CAMPUS MARABÁ",
+            "sede": "Não informada",
+            "participacao": ""
+          },
+          {
+            "nome": "EDUCAÇÃO DO CAMPO, AGRICULTURA FAMILIAR E CURRÍCULO - TURMA SEMED MARABÁ",
+            "sede": "Não informada",
+            "participacao": ""
+          },
+          {
+            "nome": "EDUCAÇÃO DO CAMPO, AGRICULTURA FAMILIAR E SUSTENTABILIDADE NA AMAZONIA",
+            "sede": "Não informada",
+            "participacao": ""
+          },
+          {
+            "nome": "RECOMPOSIÇÃO DE ÁREAS DEGRADADAS E ALTERADAS",
+            "sede": "Não informada",
+            "participacao": ""
+          },
+          {
+            "nome": "RECOMPOSIÇÃO DE ÁREAS DEGRADADAS E ALTERADAS TURMA 2",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "SANTA/DEPI - SANTAREM/ DPTO. ENS. PES. POS. INOV. EXT ",
+        "cursos": [
+          {
+            "nome": "ENSINO DE CIÊNCIAS E MATEMÁTICA-TURMA 2",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "TUCUR/DEPI - Tuc/ Dir. de Ens. Pesq. Pós, Inov. e Ext ",
+        "cursos": [
+          {
+            "nome": "CIÊNCIAS BIOLÓGICAS APLICADAS À SAÚDE",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      },
+      {
+        "categoria": "VIGI/DEPIE - Vigia/ Dpto. Ens. Pes. Pós. Inov. Ext ",
+        "cursos": [
+          {
+            "nome": "INOVAÇÕES CURRICULARES NA EDUCAÇÃO DO CAMPO",
+            "sede": "Não informada",
+            "participacao": ""
+          }
+        ]
+      }
+    ]
   }
 ]

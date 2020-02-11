@@ -9,6 +9,4 @@ const ifpa = new Sigaa({
 });
 
 const fs = require('fs');
-(async () =>
-  fs.writeFileSync('./example.json', JSON.stringify(await ifpa.getCourses()))
-)();
+(async () => fs.writeFileSync('./example.json', JSON.stringify(await ifpa.getCourses())))();
