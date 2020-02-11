@@ -44,7 +44,7 @@ class Sigaa {
    * Get a list of all course
    */
   async getCourses() {
-    this.execIf('getCourses')
+    return this.execIf('getCourses')
   }
 
   /**
@@ -52,7 +52,7 @@ class Sigaa {
    * @param {Number} course - The Course ID
    */
   async getStudentsFromCourse(course) {
-    this.execIf('getStudentsFromCourse', [...course])
+    return this.execIf('getStudentsFromCourse', [...course])
   }
 
   /**
@@ -83,7 +83,7 @@ class Sigaa {
         return true;
       } else return false;
     }).length > 0) {
-      this.institution[func]({ debug: this.debug }, ...params);
+      return this.institution[func]({ debug: this.debug }, ...params);
     } else { throw new MethodNotImplemented("> This function wasn't implemented or not work in this institution") }
   }
 }

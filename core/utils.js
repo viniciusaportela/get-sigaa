@@ -1,6 +1,10 @@
 /**
  * Common Function to all Sigaa websites and others
  */
-exports = {
+module.exports = {
+
+  cleanText(text) {
+    return text.replace(/\n|\t/g, '');
+  }
 
 }

@@ -1,8 +1,8 @@
 # sigaa-api
 
-> Em desenvolvimento
-
 API não-oficial responsável por pegar informações do sistema SIGAA.
+
+> Em desenvolvimento
 
 ---
 

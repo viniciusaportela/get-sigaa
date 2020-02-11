@@ -1,6 +1,7 @@
 const BrowserGenerator = require('../core/BrowserGenerator');
 const cheerio = require('cheerio');
 const Colors = require('colors');
+const { cleanText } = require('../core/utils');
 
 /**
  * @class
@@ -95,21 +96,21 @@ class IFPA {
 
         if (child.length) {
           // New category
-          response.data.push({
-            categoria: child.text(),
+          response.categorias.push({
+            categoria: cleanText(child.text()),
             cursos: [],
           })
           curIndex++;
         } else {
           // Add Course
           let courseInfo = $(element).children().toArray();
-          let name = $(courseInfo[0]).text();
-          let campus = $(courseInfo[1]).text();
-          let participation = $(courseInfo[2]).text();
+          let nome = cleanText($(courseInfo[0]).text());
+          let campus = cleanText($(courseInfo[1]).text());
+          let participacao = cleanText($(courseInfo[2]).text());
           let link = $(courseInfo[3]).find('a').attr('href');
 
-          response.data[curIndex].data.push({
-            name, campus, participation, link
+          response.categorias[curIndex].cursos.push({
+            nome, campus, participacao, link
           })
         }
       })
@@ -117,10 +118,12 @@ class IFPA {
       return response;
     })
 
-    console.dir(JSON.stringify(res))
-  }
+    let finalRes = []
+    res.map(item => finalRes.push(item))
 
-  static async
+    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Processed!`);
+    return finalRes;
+  }
 
 }
 

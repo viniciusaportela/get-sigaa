@@ -8,4 +8,7 @@ const ifpa = new Sigaa({
   debug: true,
 });
 
-ifpa.getCourses()
+const fs = require('fs');
+(async () =>
+  fs.writeFileSync('./example.json', JSON.stringify(await ifpa.getCourses()))
+)();
