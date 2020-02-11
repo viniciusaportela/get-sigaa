@@ -71,7 +71,7 @@ class Sigaa {
     const res = data.map((html, index) => {
 
       let $ = cheerio.load(html);
-      return processTable($('.listagem'), { cheerio: $, mode, title: this.courses[index].title });
+      return processTable($('.listagem'), { mode, title: this.courses[index].title, debug });
     })
 
     let finalRes = []
@@ -89,7 +89,24 @@ class Sigaa {
    * @param {Number} course - The Course ID
    */
   async getStudentsFromCourse(course) {
+    const debug = this.debug;
+    const debugName = this.institution;
 
+    debug && console.log(`[${Colors.blue(debugName)}][getStudentsFromCourse] Getting Students from '${course}' course id`);
+    const browser = await require('puppeteer').launch();
+    const page = await browser.newPage();
+
+    debug && console.log(`[${Colors.blue(debugName)}][getStudentsFromCourse] ${this.url.base}/sigaa/public/curso/alunos.jsf?lc=pt_BR&id=${course}`);
+    await page.goto(`${this.url.base}/sigaa/public/curso/alunos.jsf?lc=pt_BR&id=${course}`, { waitUntil: 'domcontentloaded' });
+    const html = await page.content();
+    const $ = require('cheerio').load(html);
+
+    const res = processTable($('#table_lt'), { head: 'tr', titleless: true, ignoreLast: true, debug })
+    debug && console.log(`[${Colors.blue(debugName)}][getStudentsFromCourse] Done!`);
+    debug && console.log(`[${Colors.blue(debugName)}][getStudentsFromCourse] Closing the connection`);
+    await browser.close();
+
+    return res;
   }
 
   /**

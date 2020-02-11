@@ -13,52 +13,104 @@ function cleanText(text) {
 /**
  * Process a table and returns a Array
  * @param {Object} table Table in cheerio Element
- * @param {Object} config configuration
- * @param {('structured'|,'flat')} config.mode
- * @param {String} config.title
+ * @param {Object} config Configuration
+ * @param {('structured'|,'flat')} config.mode - What gonna be the return format
+ * @param {String} config.title - The table title (root)
+ * @param {('default'|'tr')} [config.head] - default = on thead, tr = is a tr element instead of thead
+ * @param {Boolean} config.titleless - Has title or not (root node or Array)
+ * @param {Boolean} config.ignoreLast - Ignore the last element of table
+ * @param {Boolean} config.debug - If is in debug mode or not
  */
-function processTable(table, config) {
-  $ = require('cheerio')
+function processTable(table, config = {
+  head: 'default',
+  titleless: false,
+  mode: 'structured',
+  ignoreLast: false,
+  debug: false,
+}) {
 
-  let response = {
-    modalidade: config.title,
-    categorias: []
-  }
+  const Colors = require('colors');
+  $ = require('cheerio');
+
   let curIndex = -1
+  let response;
 
-  // Get th information
+  // Check if has a root node or not
+  // root node = [{title: ..., data: ...}]
+  // titleless -> [data..., data..., data..., data...]
+  if (config.titleless) {
+    response = []
+  } else {
+    response = {
+      modalidade: config.title,
+      categorias: []
+    }
+  }
+
+  // Get Head from Table
   let head = []
-  $(table).find('thead tr th').toArray().map(th => {
-    head.push(cleanText($(th).text()));
-  })
+  if (config.head === 'default') {
+    $(table).find('thead tr th').toArray().map(th => {
+      head.push(cleanText($(th).text()));
+    })
+  } else if (config.head === 'tr') {
+    $($(table).find('tbody tr').toArray()[0]).children().toArray().forEach(td => {
+      head.push(cleanText($(td).text()));
+    })
+  } else {
+    throw Error('config.head is not correctly set, available values are: default, tr')
+  }
 
-  $(table).find('tbody tr').toArray().map(element => {
+  const elements = $(table).find('tbody tr').toArray()
+
+  //Check if the first element is head or not
+  if (config.head === 'tr') {
+    config.debug && console.log(`[${Colors.grey('utils')}][processTable] Removing head from list`)
+    elements.shift();
+  }
+
+  elements.map((element, index) => {
     let child = $(element).find('.subFormulario')
 
     if (child.length) {
       // New category
-      console.log('new category');
-      response.categorias.push({
-        categoria: cleanText(child.text()),
-        cursos: [],
-      })
+      if (config.titleless) {
+        response.categorias.push({
+          categoria: cleanText(child.text()),
+          cursos: [],
+        })
+      } else {
+        response.push({
+          categoria: cleanText(child.text()),
+          cursos: [],
+        })
+      }
+
       curIndex++;
     } else {
       // Add Course
-      console.log('new course');
+      if (!config.ignoreLast || (config.ignoreLast && index < elements.length - 1)) {
+        let courseInfo = $(element).children().toArray();
+        let curCourse = {}
+        head.map((item, index) => {
+          //Probably Link
+          if (item === '') {
+            curCourse.Link = $(courseInfo[index]).find('a').attr('href');
+          } else {
+            curCourse[item] = cleanText($(courseInfo[index]).text());
+          }
+        })
 
-      let courseInfo = $(element).children().toArray();
-      let curCourse = {}
-      head.map((item, index) => {
-        //Probably Link
-        if (item === '') {
-          curCourse.Link = $(courseInfo[index]).find('a').attr('href');
+        if (config.titleless) {
+          if (curIndex === -1) {
+            response.push(curCourse)
+          } else response[curIndex].cursos.push(curCourse)
         } else {
-          curCourse[item] = cleanText($(courseInfo[index]).text());
+          if (curIndex === -1) {
+            response.push(curCourse)
+          } else response.categorias[curIndex].cursos.push(curCourse)
         }
-      })
-
-      response.categorias[curIndex].cursos.push(curCourse)
+      } else { config.debug && console.log(`[${Colors.grey('utils')}][processTable] Ignoring last element`) }
     }
   })
 
