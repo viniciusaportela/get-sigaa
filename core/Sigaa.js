@@ -1,6 +1,6 @@
 const Colors = require('colors');
-const BrowserGenerator = require('../core/BrowserGenerator');
 const cheerio = require('cheerio');
+const BrowserGenerator = require('../core/BrowserGenerator');
 const { processTable } = require('../core/utils');
 
 /**
@@ -71,7 +71,7 @@ class Sigaa {
     const res = data.map((html, index) => {
 
       let $ = cheerio.load(html);
-      return processTable($('.listagem tbody'), { cheerio: $, mode, title: this.courses[index].title });
+      return processTable($('.listagem'), { cheerio: $, mode, title: this.courses[index].title });
     })
 
     let finalRes = []

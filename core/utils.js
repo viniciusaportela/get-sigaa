@@ -26,8 +26,13 @@ function processTable(table, config) {
   }
   let curIndex = -1
 
-  console.log($(table).find('tr').lenght);
-  $(table).find('tr').toArray().map(element => {
+  // Get th information
+  let head = []
+  $(table).find('thead tr th').toArray().map(th => {
+    head.push(cleanText($(th).text()));
+  })
+
+  $(table).find('tbody tr').toArray().map(element => {
     let child = $(element).find('.subFormulario')
 
     if (child.length) {
@@ -41,15 +46,19 @@ function processTable(table, config) {
     } else {
       // Add Course
       console.log('new course');
-      let courseInfo = $(element).children().toArray();
-      let nome = cleanText($(courseInfo[0]).text());
-      let sede = cleanText($(courseInfo[1]).text());
-      let participacao = cleanText($(courseInfo[2]).text());
-      let link = $(courseInfo[3]).find('a').attr('href');
 
-      response.categorias[curIndex].cursos.push({
-        nome, sede, participacao, link
+      let courseInfo = $(element).children().toArray();
+      let curCourse = {}
+      head.map((item, index) => {
+        //Probably Link
+        if (item === '') {
+          curCourse.Link = $(courseInfo[index]).find('a').attr('href');
+        } else {
+          curCourse[item] = cleanText($(courseInfo[index]).text());
+        }
       })
+
+      response.categorias[curIndex].cursos.push(curCourse)
     }
   })
 
