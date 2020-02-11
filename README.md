@@ -1,6 +1,6 @@
-# sigaa-api
+# get-sigaa
 
-API não-oficial responsável por pegar informações do sistema SIGAA.
+Repositório não-oficial responsável por pegar informações do sistema SIGAA.
 
 > Em desenvolvimento
 

@@ -1,7 +1,7 @@
-//Custom Errors
-const MethodNotImplemented = require('../errors/MethodNotImplemented')
-
-const Colors = require('colors')
+const Colors = require('colors');
+const BrowserGenerator = require('../core/BrowserGenerator');
+const cheerio = require('cheerio');
+const { processTable } = require('../core/utils');
 
 /**
  * @class
@@ -28,23 +28,57 @@ class Sigaa {
     if (config.debug) {
       this.debug = true;
     } else this.debug = false;
-    this.debug && console.log(`[${Colors.magenta('Debug')}] Debug Mode Active!`)
+    this.debug && console.log(`[${Colors.magenta('Debug')}] Debug Mode Active!`);
 
-    this.institution = require('../institutions/' + config.institution + '.js')
-    this.debug && console.log(`[${Colors.green('Sigaa')}] Institution Instance: `, this.institution)
+    this.debug && console.log(`[${Colors.green('Sigaa')}] Get Configuration from ${config.institution}`);
+    require('../institutions/' + config.institution + '.js')(this);
+    this.institution = config.institution;
 
-    //List of Institution Methods
-    this.methods = Object.getOwnPropertyNames(this.institution).filter(item => {
-      return typeof this.institution[item] === 'function'
-    })
-    this.debug && console.log(`[${Colors.green('Sigaa')}] Institution Methods: `, this.methods)
   }
 
   /**
    * Get a list of all course
+   * @param {('structured'|'flat')} [mode=structured] - How returns the result
    */
-  async getCourses() {
-    return this.execIf('getCourses')
+  async getCourses(mode = 'structured') {
+    //TODO: Implement custom Object (Schema / Enum)
+    const debug = this.debug;
+    const debugName = this.institution;
+
+    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Generating Browsers`);
+    const browsers = await Promise.all(BrowserGenerator.generateBrowsers(this.courses.length));
+
+    // Create a Page for each browser
+    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Creating Pages`);
+    const pages = await Promise.all(browsers.map(browser => { return browser.newPage() }))
+
+    // Go For Each Modality
+    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Redirecting to Each Page`);
+    await Promise.all(pages.map((page, index) => {
+      let item = this.courses[index]
+      debug && console.log(`[${Colors.blue(debugName)}][getCourse]` + ` ${this.url.base}/sigaa/public/curso/lista.jsf?nivel=${item.level}&aba=${item.id}`);
+      return page.goto(`${this.url.base}/sigaa/public/curso/lista.jsf?nivel=${item.level}&aba=${item.id}`, { waitUntil: 'load' })
+    }))
+
+    // Get Page Content
+    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Getting Page Content`);
+    const data = await Promise.all(pages.map((page, index) => {
+      return page.content()
+    }))
+
+    // Proccess all content data
+    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Proccessing Page Content`);
+    const res = data.map((html, index) => {
+
+      let $ = cheerio.load(html);
+      return processTable($('.listagem tbody').html());
+    })
+
+    let finalRes = []
+    res.map(item => finalRes.push(item))
+
+    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Processed!`);
+    return finalRes;
   }
 
   /**
@@ -52,7 +86,7 @@ class Sigaa {
    * @param {Number} course - The Course ID
    */
   async getStudentsFromCourse(course) {
-    return this.execIf('getStudentsFromCourse', [...course])
+
   }
 
   /**
@@ -67,24 +101,6 @@ class Sigaa {
    */
   async getEgresses() {
 
-  }
-
-  /**
-   * @internal
-   * @private
-   * 
-   * Execute if this method exists in Institution Class
-   * @param {String} func - Method Name
-   * @param {Array} [params=[]] - List of Params
-   */
-  execIf(func, params = []) {
-    if (this.methods.filter(item => {
-      if (item === func) {
-        return true;
-      } else return false;
-    }).length > 0) {
-      return this.institution[func]({ debug: this.debug }, ...params);
-    } else { throw new MethodNotImplemented("> This function wasn't implemented or not work in this institution") }
   }
 }
 
