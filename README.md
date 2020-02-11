@@ -1,6 +1,16 @@
-#sigaa-web-scraping
+# sigaa-api
 
-Repositório Git responsável por pegar informações do sistema SIGAA.
+> Em desenvolvimento
+
+API não-oficial responsável por pegar informações do sistema SIGAA.
+
+---
 
 Sistemas SIGAA Testados:
-- sigaa.ifpa.edu.br
+- IFPA: sigaa.ifpa.edu.br
+
+## Instalação
+
+## Exemplo
+
+## API

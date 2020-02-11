@@ -1,2 +1,2 @@
-const Sigaa = require('core/Sigaa')
+const Sigaa = require('./core/Sigaa')
 module.exports = Sigaa
