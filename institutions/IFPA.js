@@ -6,12 +6,26 @@
  * Instituto Federal de Ciência e Tecnologia do Pará
  */
 function setup(Sigaa) {
-  // Custom Values
+  /**
+   * Which repository resources the sigaa has support
+   */
+  Sigaa.support = {
+    lastVersion: '3.12.41',
+    courses: true,
+    students: true,
+  }
+
+  /**
+   * URL List for IFPA
+   */
   Sigaa.url = {
     base: 'https://sigaa.ifpa.edu.br',
     home: '/sigaa/public/home.jsf?modo=classico',
   }
 
+  /**
+   * List of courses data for searching
+   */
   Sigaa.courses = [
     {
       title: 'Técnico',

@@ -21,13 +21,14 @@ function cleanText(text) {
  * @param {Boolean} config.ignoreLast - Ignore the last element of table
  * @param {Boolean} config.debug - If is in debug mode or not
  */
-function processTable(table, config = {
-  head: 'default',
-  titleless: false,
-  mode: 'structured',
-  ignoreLast: false,
-  debug: false,
-}) {
+function processTable(table, {
+  title,
+  headConfig = 'default',
+  titleless = false,
+  mode = 'structured',
+  ignoreLast = false,
+  debug = false,
+} = {}) {
 
   const Colors = require('colors');
   $ = require('cheerio');
@@ -38,34 +39,34 @@ function processTable(table, config = {
   // Check if has a root node or not
   // root node = [{title: ..., data: ...}]
   // titleless -> [data..., data..., data..., data...]
-  if (config.titleless) {
+  if (titleless) {
     response = []
   } else {
     response = {
-      modalidade: config.title,
+      modalidade: title,
       categorias: []
     }
   }
 
   // Get Head from Table
   let head = []
-  if (config.head === 'default') {
+  if (headConfig === 'default') {
     $(table).find('thead tr th').toArray().map(th => {
       head.push(cleanText($(th).text()));
     })
-  } else if (config.head === 'tr') {
+  } else if (headConfig === 'tr') {
     $($(table).find('tbody tr').toArray()[0]).children().toArray().forEach(td => {
       head.push(cleanText($(td).text()));
     })
   } else {
-    throw Error('config.head is not correctly set, available values are: default, tr')
+    throw Error('headConfig is not correctly set, available values are: default, tr')
   }
 
   const elements = $(table).find('tbody tr').toArray()
 
   //Check if the first element is head or not
-  if (config.head === 'tr') {
-    config.debug && console.log(`[${Colors.grey('utils')}][processTable] Removing head from list`)
+  if (headConfig === 'tr') {
+    debug && console.log(`[${Colors.grey('utils')}][processTable] Removing head from list`)
     elements.shift();
   }
 
@@ -74,13 +75,8 @@ function processTable(table, config = {
 
     if (child.length) {
       // New category
-      if (config.titleless) {
+      if (!titleless) {
         response.categorias.push({
-          categoria: cleanText(child.text()),
-          cursos: [],
-        })
-      } else {
-        response.push({
           categoria: cleanText(child.text()),
           cursos: [],
         })
@@ -89,7 +85,7 @@ function processTable(table, config = {
       curIndex++;
     } else {
       // Add Course
-      if (!config.ignoreLast || (config.ignoreLast && index < elements.length - 1)) {
+      if (!ignoreLast || (ignoreLast && index < elements.length - 1)) {
         let courseInfo = $(element).children().toArray();
         let curCourse = {}
         head.map((item, index) => {
@@ -101,16 +97,16 @@ function processTable(table, config = {
           }
         })
 
-        if (config.titleless) {
+        if (titleless) {
           if (curIndex === -1) {
             response.push(curCourse)
-          } else response[curIndex].cursos.push(curCourse)
+          } else response[curIndex].push(curCourse)
         } else {
           if (curIndex === -1) {
             response.push(curCourse)
           } else response.categorias[curIndex].cursos.push(curCourse)
         }
-      } else { config.debug && console.log(`[${Colors.grey('utils')}][processTable] Ignoring last element`) }
+      } else { debug && console.log(`[${Colors.grey('utils')}][processTable] Ignoring last element`) }
     }
   })
 

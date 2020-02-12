@@ -34,13 +34,15 @@ class Sigaa {
     require('../institutions/' + config.institution + '.js')(this);
     this.institution = config.institution;
 
+    // Set custom values (override institution values)
+    if (config.url) this.url = config.url
   }
 
   /**
    * Get a list of all course
    * @param {('structured'|'flat')} [mode=structured] - How returns the result
    */
-  async getCourses(mode = 'structured') {
+  async getCourses() {
     //TODO: Implement custom Object (Schema / Enum)
     const debug = this.debug;
     const debugName = this.institution;
@@ -71,7 +73,7 @@ class Sigaa {
     const res = data.map((html, index) => {
 
       let $ = cheerio.load(html);
-      return processTable($('.listagem'), { mode, title: this.courses[index].title, debug });
+      return processTable($('.listagem'), { title: this.courses[index].title, debug });
     })
 
     let finalRes = []
@@ -101,26 +103,12 @@ class Sigaa {
     const html = await page.content();
     const $ = require('cheerio').load(html);
 
-    const res = processTable($('#table_lt'), { head: 'tr', titleless: true, ignoreLast: true, debug })
+    const res = processTable($('#table_lt'), { headConfig: 'tr', titleless: true, ignoreLast: true, debug })
     debug && console.log(`[${Colors.blue(debugName)}][getStudentsFromCourse] Done!`);
     debug && console.log(`[${Colors.blue(debugName)}][getStudentsFromCourse] Closing the connection`);
     await browser.close();
 
     return res;
-  }
-
-  /**
-   * Get a list of all students from all courses
-   */
-  async getStudents() {
-
-  }
-
-  /**
-   * 
-   */
-  async getEgresses() {
-
   }
 }
 

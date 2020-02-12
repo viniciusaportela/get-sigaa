@@ -1,26 +1,30 @@
 {
-  "name": "sigaa-api",
+  "name": "get-sigaa",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vinicius-portela/sigaa-web-scraping.git"
+    "url": "git+https://github.com/viniciusaportela/get-sigaa.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "sigaa",
+    "api",
+    "web-scraping"
+  ],
+  "author": "viniciusaportela",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vinicius-portela/sigaa-web-scraping/issues"
+    "url": "https://github.com/viniciusaportela/get-sigaa/issues"
   },
-  "homepage": "https://github.com/vinicius-portela/sigaa-web-scraping#readme",
+  "homepage": "https://github.com/viniciusaportela/get-sigaa#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "colors": "^1.4.0",
+    "jest": "^25.1.0",
     "puppeteer": "^2.1.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.5"

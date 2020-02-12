@@ -6,18 +6,27 @@
  * Universidade Federal do Oeste do Pará
  */
 function setup(Sigaa) {
-  // Custom Values
+  /**
+   * Which repository resources the sigaa has support
+   */
+  Sigaa.support = {
+    lastVersion: '3.42.12',
+    courses: true,
+    students: false,
+  }
+
+  /**
+   * URL List for UFOPA
+   */
   Sigaa.url = {
     base: 'https://sigaa.ufopa.edu.br',
     home: '/sigaa/public/home.jsf',
   }
 
+  /**
+   * List of courses data for searching
+   */
   Sigaa.courses = [
-    {
-      title: 'Técnico',
-      id: 'p-tecnico',
-      level: 'T'
-    },
     {
       title: 'Graduação',
       id: 'p-graduacao',

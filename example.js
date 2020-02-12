@@ -1,23 +1,23 @@
+const Sigaa = require('./');
+const fs = require('fs');
+
 /**
  * Example File
  */
 
 // IFPA
-const Sigaa = require('./');
 const ifpa = new Sigaa({
   institution: 'IFPA',
   debug: true,
 });
 
-const fs = require('fs');
-(async () => fs.writeFileSync('./example.json', JSON.stringify(await ifpa.getStudentsFromCourse(204))))();
+(async () => fs.writeFileSync('./ifpa.json', JSON.stringify(await ifpa.getStudentsFromCourse(204))))();
+(async () => fs.writeFileSync('./ifpa2.json', JSON.stringify(await ifpa.getCourses())))();
 
 // UFOPA
-/*const Sigaa = require('./');
 const ufopa = new Sigaa({
   institution: 'UFOPA',
   debug: true,
 });
 
-const fs = require('fs');
-(async () => fs.writeFileSync('./example.json', JSON.stringify(await ufopa.getCourses())))();*/
+(async () => fs.writeFileSync('./ufopa.json', JSON.stringify(await ufopa.getCourses())))();
