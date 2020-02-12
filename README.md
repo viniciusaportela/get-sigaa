@@ -83,21 +83,22 @@ Retorno (Exemplo UFOPA):
 ```json
 [
 	{
-	"modalidade":  "Graduação",
-	"categorias": [
-		{
-			"categoria":  "CALE - CAMPUS UNIVERSITÁRIO DE ALENQUER",
-			"cursos": [
-				{
-					"Nome":  "ADMINISTRAÇÃO",
-					"Sede":  "Alenquer",
-					"Modalidade":  "Presencial",
-					"Coordenador":  "JORGIENE DOS SANTOS OLIVEIRA",
-					"Link":  "portal.jsf?id=302729794&lc=pt_BR&nivel=G"
-				}
-			]
-		},
-	]
+		"modalidade":  "Graduação",
+		"categorias": [
+			{
+				"categoria":  "CALE - CAMPUS UNIVERSITÁRIO DE ALENQUER",
+				"cursos": [
+					{
+						"Nome":  "ADMINISTRAÇÃO",
+						"Sede":  "Alenquer",
+						"Modalidade":  "Presencial",
+						"Coordenador":  "JORGIENE DOS SANTOS OLIVEIRA",
+						"Link":  "portal.jsf?id=302729794&lc=pt_BR&nivel=G"
+					}
+				]
+			},
+		]
+	}
 ]
 ```
 
