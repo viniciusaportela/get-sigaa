@@ -58,7 +58,7 @@ const ufopa =  new  Sigaa({
 
 **constructor(config)**
 
-Starts Sigaa class with certain configuration
+Inicia a classe do SIGAA com algumas configurações
 
 | Param | Desc |
 |--|--|
@@ -70,6 +70,7 @@ Starts Sigaa class with certain configuration
 | config.debug | Mostrar mensagens de log durante a execução|
 
 **getCourses()**
+
 Pega uma lista de cursos separado por categoria
 
 | Suporte | Instituição |
@@ -77,24 +78,46 @@ Pega uma lista de cursos separado por categoria
 | ✔️ | IFPA |
 | ✔️ | UFOPA|
 
-Retorno:
-```json
+Retorno (Exemplo UFOPA):
 
+```json
+[
+	{
+	"modalidade":  "Graduação",
+	"categorias": [
+		{
+			"categoria":  "CALE - CAMPUS UNIVERSITÁRIO DE ALENQUER",
+			"cursos": [
+				{
+					"Nome":  "ADMINISTRAÇÃO",
+					"Sede":  "Alenquer",
+					"Modalidade":  "Presencial",
+					"Coordenador":  "JORGIENE DOS SANTOS OLIVEIRA",
+					"Link":  "portal.jsf?id=302729794&lc=pt_BR&nivel=G"
+				}
+			]
+		},
+	]
+]
 ```
 
 **getStudentsFromCourse(courseId)**
 
 Pega a lista de estudantes de um determinado curso
 
-* courseId - The course ID, you can get it from SIGAA course list
+| Param | Desc |
+|--|--|
+| courseId | ID do curso, pode ser pego na lista de cursos do SIGAA |
+
+---
 
 | Suporte | Instituição |
 |--|--|
 | ✔️ | IFPA |
 | ❌ | UFOPA|
 
-
 Retorno:
+
 ```json
 [
 	{
