@@ -9,8 +9,8 @@ Repositório não-oficial responsável por pegar informações do sistema SIGAA.
 
 Sistemas SIGAA Testados:
 
-- IFPA: sigaa.ifpa.edu.br (3.12.41)
-- UFOPA: sigaa.ufopa.edu.br (3.42.12)
+- **IFPA**: sigaa.ifpa.edu.br (3.12.41)
+- **UFOPA**: sigaa.ufopa.edu.br (3.42.12)
   
 ## Instalação
 
@@ -82,7 +82,7 @@ Retorno:
 
 ```
 
-### getStudentsFromCourse(*courseId*)
+**getStudentsFromCourse(courseId)**
 
 Pega a lista de estudantes de um determinado curso
 
@@ -101,7 +101,6 @@ Retorno:
 		"Matrícula":  "xxx",
 		"Aluno":  "Nome da Pessoa",
 		"Ano/Período de ingresso":  "2020/1"
-	},
-	...
+	}
 ]
 ```
