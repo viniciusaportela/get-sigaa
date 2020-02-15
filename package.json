@@ -3,6 +3,9 @@
   "version": "0.1.1",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "12.14.1"
+  },
   "scripts": {
     "test": "jest"
   },
@@ -15,18 +18,18 @@
     "api",
     "web-scraping"
   ],
-  "author": "viniciusaportela",
+  "author": "Vinícius de Araújo Portela <viniciusaportela>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/viniciusaportela/get-sigaa/issues"
   },
   "homepage": "https://github.com/viniciusaportela/get-sigaa#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "colors": "^1.4.0",
-    "jest": "^25.1.0",
-    "puppeteer": "^2.1.1",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.5"
+    "cheerio": "1.0.0-rc.3",
+    "colors": "1.4.0",
+    "jest": "25.1.0",
+    "puppeteer": "2.1.1",
+    "request": "2.88.0",
+    "request-promise": "4.2.5"
   }
 }

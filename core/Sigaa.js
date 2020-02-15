@@ -16,12 +16,13 @@ class Sigaa {
   /**
    * Initialize Sigaa. Insert Configuration
    * 
-   * @param {('IFPA' | 'other')} institution - Institution Initials
-   * @param {Object} url - Custom URL to not verified Institutions
-   * @param {String} url.base - Base Url of Website
-   * @param {String} url.home - Home Page
-   * @param {Boolean} verifyVersion - Verify everyday if the package is up-to-date with sigaa website
-   * @param {Boolean} [debug=false] - Start
+   * @param {Object} param
+   * @param {('IFPA'|'UFOPA')} param.institution - Institution Initials
+   * @param {Object} [param.url] - Custom URL to not Verified Institutions
+   * @param {String} param.url.base - Base Url of Website (https://website.com)
+   * @param {String} param.url.home - Home Page Path (/to/home/page)
+   * @param {Boolean} [param.verifyVersion] - Verify everyday if the package is up-to-date with sigaa website
+   * @param {Boolean} [param.debug] - Log Actions
    */
   constructor({
     institution,

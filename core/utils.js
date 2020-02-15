@@ -12,20 +12,19 @@ function cleanText(text) {
 
 /**
  * Process a table and returns a Array
- * @param {Object} table Table in cheerio Element
- * @param {Object} config Configuration
- * @param {('structured'|,'flat')} config.mode - What gonna be the return format
- * @param {String} config.title - The table title (root)
- * @param {('default'|'tr')} [config.head] - default = on thead, tr = is a tr element instead of thead
- * @param {Boolean} config.titleless - Has title or not (root node or Array)
- * @param {Boolean} config.ignoreLast - Ignore the last element of table
- * @param {Boolean} config.debug - If is in debug mode or not
+ * 
+ * @param {Object} table - Table in cheerio element format
+ * @param {Object} config - Configuration
+ * @param {String} [config.title] - The table title (root)
+ * @param {('default'|'tr')} [config.headConfig] - default = on thead, tr = is a tr element instead of thead
+ * @param {Boolean} [config.titleless] - Has title or not (root node or Array)
+ * @param {Boolean} [config.ignoreLast] - Ignore the last element of table
+ * @param {Boolean} [config.debug] - If is in debug mode or not
  */
 function processTable(table, {
   title,
   headConfig = 'default',
   titleless = false,
-  mode = 'structured',
   ignoreLast = false,
   debug = false,
 } = {}) {
@@ -126,7 +125,5 @@ function processTable(table, {
   return response;
 }
 
-module.exports = {
-  cleanText,
-  processTable
-}
+exports.cleanText = cleanText
+exports.processTable = processTable
