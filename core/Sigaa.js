@@ -40,7 +40,6 @@ class Sigaa {
 
   /**
    * Get a list of all course
-   * @param {('structured'|'flat')} [mode=structured] - How returns the result
    */
   async getCourses() {
     //TODO: Implement custom Object (Schema / Enum)

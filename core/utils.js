@@ -36,7 +36,7 @@ function processTable(table, {
   let curIndex = -1
   let response;
 
-  // Check if has a root node or not
+  // Check if has a root node or is titleless
   // root node = [{title: ..., data: ...}]
   // titleless -> [data..., data..., data..., data...]
   if (titleless) {
@@ -87,10 +87,23 @@ function processTable(table, {
       // Add Course
       if (!ignoreLast || (ignoreLast && index < elements.length - 1)) {
         let courseInfo = $(element).children().toArray();
-        let curCourse = {}
+        let curCourse = {};
+
         head.map((item, index) => {
-          //Probably Link
-          if (item === '') {
+          // Probably Link
+          if (item === 'Nome') {
+            // Separate ID from name (Check before)
+            const pattern = /(\d{1,}) (?:-) (.*)/;
+            const text = cleanText($(courseInfo[index]).text());
+
+            if (pattern.test(text)) {
+              let re = pattern.exec(text);
+              curCourse.ID = re[1];
+              curCourse.Nome = re[2];
+            } else {
+              curCourse[item] = cleanText($(courseInfo[index]).text());
+            }
+          } else if (item === '') {
             curCourse.Link = $(courseInfo[index]).find('a').attr('href');
           } else {
             curCourse[item] = cleanText($(courseInfo[index]).text());
