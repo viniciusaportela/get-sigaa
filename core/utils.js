@@ -64,7 +64,7 @@ function processTable(table, {
 
   const elements = $(table).find('tbody tr').toArray()
 
-  //Check if the first element is head or not
+  // Check if the first element is head or not
   if (headConfig === 'tr') {
     debug && console.log(`[${Colors.grey('utils')}][processTable] Removing head from list`)
     elements.shift();

@@ -16,26 +16,32 @@ class Sigaa {
   /**
    * Initialize Sigaa. Insert Configuration
    * 
-   * @param {Object} config - Start Configurations
-   * @param {('IFPA' | 'other')} config.institution - Institution Initials
-   * @param {Object} config.url - Custom URL to not verified Institutions
-   * @param {String} config.url.base - Base Url of Website
-   * @param {String} config.url.home - Home Page
-   * @param {Boolean} [config.debug=false] - Start
+   * @param {('IFPA' | 'other')} institution - Institution Initials
+   * @param {Object} url - Custom URL to not verified Institutions
+   * @param {String} url.base - Base Url of Website
+   * @param {String} url.home - Home Page
+   * @param {Boolean} verifyVersion - Verify everyday if the package is up-to-date with sigaa website
+   * @param {Boolean} [debug=false] - Start
    */
-  constructor(config) {
+  constructor({
+    institution,
+    url,
+    verifyVersion = false,
+    debug = false
+  } = {}) {
 
-    if (config.debug) {
+    if (debug) {
       this.debug = true;
     } else this.debug = false;
     this.debug && console.log(`[${Colors.magenta('Debug')}] Debug Mode Active!`);
 
-    this.debug && console.log(`[${Colors.green('Sigaa')}] Get Configuration from ${config.institution}`);
-    require('../institutions/' + config.institution + '.js')(this);
-    this.institution = config.institution;
+    this.debug && console.log(`[${Colors.green('Sigaa')}] Get Configuration from ${institution}`);
+    require('../institutions/' + institution + '.js')(this);
+    this.institution = institution;
 
     // Set custom values (override institution values)
-    if (config.url) this.url = config.url
+    if (url) this.url = url;
+    this.verifyVersion = verifyVersion;
   }
 
   /**
@@ -45,6 +51,8 @@ class Sigaa {
     //TODO: Implement custom Object (Schema / Enum)
     const debug = this.debug;
     const debugName = this.institution;
+
+    this.verifyVersionFn();
 
     debug && console.log(`[${Colors.blue(debugName)}][getCourse] Generating Browsers`);
     const browsers = await Promise.all(BrowserGenerator.generateBrowsers(this.courses.length));
@@ -93,6 +101,8 @@ class Sigaa {
     const debug = this.debug;
     const debugName = this.institution;
 
+    this.verifyVersionFn();
+
     debug && console.log(`[${Colors.blue(debugName)}][getStudentsFromCourse] Getting Students from '${course}' course id`);
     const browser = await require('puppeteer').launch();
     const page = await browser.newPage();
@@ -108,6 +118,90 @@ class Sigaa {
     await browser.close();
 
     return res;
+  }
+
+  /**
+   * @internal
+   * @private
+   * 
+   * Verify if a given version is similar to the sigaa website
+   */
+  async verifyVersionFn() {
+    // Verify if is to verify or not
+    if (!this.verifyVersion) return;
+
+    const debug = this.debug;
+    const debugName = this.institution;
+    const fs = require('fs');
+    const join = require('path').join;
+
+    debug && console.log(`[${Colors.blue(debugName)}][verifyVersionFn] Verifying Version`);
+
+    // First, check if was already verified today
+    if (fs.existsSync(join(__dirname, '../time.json'))) {
+      debug && console.log(`[${Colors.blue(debugName)}][verifyVersionFn] time.json exits!`);
+      let json = require(join(__dirname, '../time.json'));
+
+      if (json[this.institution] === undefined) {
+        await this.verifyPageDownload();
+
+        json[this.institution] = Date.now();
+        fs.writeFileSync(join(__dirname, '../time.json'), JSON.stringify(json));
+      } else {
+        if (Date.now() - json[this.institution].lastUpdate > 86400000) {
+          // Passed one Day, Verify
+          debug && console.log(`[${Colors.blue(debugName)}][verifyVersionFn] Passed one day, checking for version again!`);
+          await this.verifyPageDownload();
+
+          json[this.institution] = Date.now();
+          fs.writeFileSync(join(__dirname, '../time.json'), JSON.stringify(json));
+        } else return;
+      }
+    } else {
+      // File not exists, or there is no time data for this institution
+      // Verify
+      debug && console.log(`[${Colors.blue(debugName)}][verifyVersionFn] Not verified for version yet, starting`);
+      await this.verifyPageDownload();
+
+      let jsonData = {}
+      jsonData[this.institution] = {
+        lastUpdate: Date.now()
+      }
+
+      fs.writeFileSync(join(__dirname, '../time.json'), JSON.stringify(jsonData));
+    }
+  }
+
+  /**
+   * @internal
+   * @private
+   * 
+   * Downloads the page and verify version from sigaa
+   */
+  async verifyPageDownload() {
+    const debug = this.debug;
+    const debugName = this.institution;
+    const { cleanText } = require('./utils');
+
+    const browser = await require('puppeteer').launch();
+    const page = await browser.newPage();
+    await page.goto(this.url.base + this.url.home);
+    const html = await page.content();
+
+    const $ = cheerio.load(html);
+    const version = cleanText($('#rodape a').text());
+
+    if (version !== this.support.lastVersion) {
+      // Not up-to-date
+      process.emitWarning(Colors.yellow(
+        '> get-sigaa is not up-to-date with given institution. ' + `(${this.institution}) ` +
+        'You can keep using it normally, but there is a chance of code broking'
+      ));
+    } else {
+      debug && console.log(`[${Colors.blue(debugName)}][downloadVerifyPage] Everything is up-to-date!`);
+    }
+
+    await browser.close();
   }
 }
 

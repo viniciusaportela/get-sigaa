@@ -10,7 +10,7 @@ function setup(Sigaa) {
    * Which repository resources the sigaa has support
    */
   Sigaa.support = {
-    lastVersion: '3.12.41',
+    lastVersion: 'v3.12.41',
     courses: true,
     students: true,
   }
