@@ -49,9 +49,11 @@ class Sigaa {
    * Get a list of all course
    */
   async getCourses() {
-    //TODO: Implement custom Object (Schema / Enum)
+
     const debug = this.debug;
     const debugName = this.institution;
+
+    if (debug) { console.time(`[${Colors.blue(debugName)}] getCourses`); }
 
     this.verifyVersionFn();
 
@@ -91,6 +93,7 @@ class Sigaa {
     debug && console.log(`[${Colors.blue(debugName)}][getCourse] Closing all conections`);
     await Promise.all(BrowserGenerator.closeAll(browsers));
 
+    if (debug) { console.timeEnd(`[${Colors.blue(debugName)}][getCourses]`); }
     return finalRes;
   }
 
@@ -101,6 +104,8 @@ class Sigaa {
   async getStudentsFromCourse(course) {
     const debug = this.debug;
     const debugName = this.institution;
+
+    if (debug) { console.time(`[${Colors.blue(debugName)}] getStudentsFromCourse`); }
 
     this.verifyVersionFn();
 
@@ -117,6 +122,8 @@ class Sigaa {
     debug && console.log(`[${Colors.blue(debugName)}][getStudentsFromCourse] Done!`);
     debug && console.log(`[${Colors.blue(debugName)}][getStudentsFromCourse] Closing the connection`);
     await browser.close();
+
+    if (debug) { console.timeEnd(`[${Colors.blue(debugName)}][getStudentsFromCourse]`); }
 
     return res;
   }
