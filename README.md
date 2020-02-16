@@ -56,6 +56,8 @@ const ufopa =  new  Sigaa({
 * getCourses
 * getStudentsFromCourse
 
+---
+
 **constructor(config)**
 
 Inicia a classe do SIGAA com algumas configurações
@@ -68,6 +70,8 @@ Inicia a classe do SIGAA com algumas configurações
 | config.url.home | Caminho para tela inicial |
 | config.institution | Sigla da Instituição. Valores: *ifpa, ufopa* (Mais valores e customização completa em breve)
 | config.debug | Mostrar mensagens de log durante a execução|
+
+---
 
 **getCourses()**
 
@@ -101,6 +105,8 @@ Retorno (Exemplo UFOPA):
 	}
 ]
 ```
+
+---
 
 **getStudentsFromCourse(courseId)**
 
