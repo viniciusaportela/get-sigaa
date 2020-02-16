@@ -1,4 +1,4 @@
-## 0.1.1 (15 February, 2020)
+## 0.1.1 (15 February, 2020) <a id='0.1.1'/>
 
 ### Added:
 
@@ -12,7 +12,7 @@
 
 - VSCode not hinting params to Sigaa construtor and utils/processTable ([a170972](https://github.com/viniciusaportela/get-sigaa/commit/a170972d0ec91d66f1eed9cf0b0aca21a0949c06))
 
-## 0.1.0 (12 February, 2020)
+## 0.1.0 (12 February, 2020) <a id='0.1.0'/>
 ### Initial Version
 
 ### Added:
