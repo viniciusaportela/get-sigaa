@@ -1,7 +1,7 @@
 const Colors = require('colors');
 const cheerio = require('cheerio');
 const BrowserGenerator = require('../core/BrowserGenerator');
-const { processTable } = require('../core/utils');
+const { processTable, print } = require('../core/utils')
 
 /**
  * @class
@@ -31,17 +31,15 @@ class Sigaa {
     debug = false
   } = {}) {
 
-    if (debug) {
-      this.debug = true;
-    } else this.debug = false;
-    this.debug && console.log(`[${Colors.magenta('Debug')}] Debug Mode Active!`);
+    this.debug = debug;
+    print('Debug Mode Active!', this.debug, Colors.green('Sigaa'));
 
-    this.debug && console.log(`[${Colors.green('Sigaa')}] Get Configuration from ${institution}`);
+    print(`Get configuration from ${institution}'`, this.debug, Colors.green('Sigaa'));
     require('../institutions/' + institution + '.js')(this);
-    this.institution = institution;
 
-    // Set custom values (override institution values)
+    // Set custom values (override institution default values)
     if (url) this.url = url;
+    this.institution = institution;
     this.verifyVersion = verifyVersion;
   }
 
@@ -50,51 +48,55 @@ class Sigaa {
    */
   async getCourses() {
 
-    const debug = this.debug;
-    const debugName = this.institution;
+    //TODO: Make Complete Process Individually for each Course
+    //Instead of each phase for each course
 
-    if (debug) { console.time(`[${Colors.blue(debugName)}] getCourses`); }
+    const printParams = [this.debug, this.institution, 'getCourses']
+    this.debug && console.time(`[${Colors.blue(this.institution)}][getCourses]`);
+    print('getCourses()', this.debug, Colors.blue(this.institution));
 
-    this.verifyVersionFn();
+    this.verifyCurrentVersion();
 
-    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Generating Browsers`);
+    // Create a Browser for each course (To simultaneously search)
+    print('Generating Browsers', ...printParams);
     const browsers = await Promise.all(BrowserGenerator.generateBrowsers(this.courses.length));
 
     // Create a Page for each browser
-    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Creating Pages`);
+    print('Creating Pages', ...printParams);
     const pages = await Promise.all(browsers.map(browser => { return browser.newPage() }))
 
     // Go For Each Modality
-    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Redirecting to Each Page`);
+    print('Redirecting', ...printParams);
     await Promise.all(pages.map((page, index) => {
       let item = this.courses[index]
-      debug && console.log(`[${Colors.blue(debugName)}][getCourse]` + ` ${this.url.base}/sigaa/public/curso/lista.jsf?nivel=${item.level}&aba=${item.id}`);
+
+      print(`${this.url.base}/sigaa/public/curso/lista.jsf?nivel=${item.level}&aba=${item.id}`, ...printParams);
       return page.goto(`${this.url.base}/sigaa/public/curso/lista.jsf?nivel=${item.level}&aba=${item.id}`, { waitUntil: 'domcontentloaded', timeout: 0 })
     }))
 
     // Get Page Content
-    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Getting Page Content`);
+    print('Getting Page Content', ...printParams);
     const data = await Promise.all(pages.map((page, index) => {
       return page.content()
     }))
 
     // Proccess all content data
-    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Proccessing Page Content`);
+    print('Processing Page Content', ...printParams);
     const res = data.map((html, index) => {
 
       let $ = cheerio.load(html);
-      return processTable($('.listagem'), { title: this.courses[index].title, debug });
+      return processTable($('.listagem'), {
+        title: this.courses[index].title,
+        debug: this.debug
+      });
     })
 
-    let finalRes = []
-    res.map(item => finalRes.push(item))
-
-    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Processed!`);
-    debug && console.log(`[${Colors.blue(debugName)}][getCourse] Closing all conections`);
+    print('Processed!', ...printParams);
+    print('Closing all conections', ...printParams);
     await Promise.all(BrowserGenerator.closeAll(browsers));
 
-    if (debug) { console.timeEnd(`[${Colors.blue(debugName)}][getCourses]`); }
-    return finalRes;
+    this.debug && console.timeEnd(`[${Colors.blue(this.institution)}][getCourses]`);
+    return res;
   }
 
   /**
@@ -102,28 +104,27 @@ class Sigaa {
    * @param {Number} course - The Course ID
    */
   async getStudentsFromCourse(course) {
-    const debug = this.debug;
-    const debugName = this.institution;
 
-    if (debug) { console.time(`[${Colors.blue(debugName)}] getStudentsFromCourse`); }
+    const printParams = [this.debug, this.institution, 'getSudentsFromCourse']
+    if (this.debug) console.time(`[${Colors.blue(this.institution)}][getStudentsFromCourse]`);
 
-    this.verifyVersionFn();
+    this.verifyCurrentVersion();
 
-    debug && console.log(`[${Colors.blue(debugName)}][getStudentsFromCourse] Getting Students from '${course}' course id`);
+    print(`Getting Students from '${course}' course id`, ...printParams);
     const browser = await require('puppeteer').launch();
     const page = await browser.newPage();
 
-    debug && console.log(`[${Colors.blue(debugName)}][getStudentsFromCourse] ${this.url.base}/sigaa/public/curso/alunos.jsf?lc=pt_BR&id=${course}`);
+    print(`${this.url.base}/sigaa/public/curso/alunos.jsf?lc=pt_BR&id=${course}`, ...printParams);
     await page.goto(`${this.url.base}/sigaa/public/curso/alunos.jsf?lc=pt_BR&id=${course}`, { waitUntil: 'domcontentloaded' });
     const html = await page.content();
     const $ = require('cheerio').load(html);
 
-    const res = processTable($('#table_lt'), { headConfig: 'tr', titleless: true, ignoreLast: true, debug })
-    debug && console.log(`[${Colors.blue(debugName)}][getStudentsFromCourse] Done!`);
-    debug && console.log(`[${Colors.blue(debugName)}][getStudentsFromCourse] Closing the connection`);
+    const res = processTable($('#table_lt'), { headConfig: 'tr', titleless: true, ignoreLast: true, debug: this.debug })
+    print('Done!', ...printParams);
+    print('Closing the connection', ...printParams);
     await browser.close();
 
-    if (debug) { console.timeEnd(`[${Colors.blue(debugName)}][getStudentsFromCourse]`); }
+    if (this.debug) console.timeEnd(`[${Colors.blue(this.institution)}][getStudentsFromCourse]`);
 
     return res;
   }
@@ -134,32 +135,32 @@ class Sigaa {
    * 
    * Verify if a given version is similar to the sigaa website
    */
-  async verifyVersionFn() {
+  async verifyCurrentVersion() {
     // Verify if is to verify or not
     if (!this.verifyVersion) return;
 
-    const debug = this.debug;
-    const debugName = this.institution;
+    const printParams = [this.debug, this.institution, 'verifyCurrentVersion']
     const fs = require('fs');
     const join = require('path').join;
 
-    debug && console.log(`[${Colors.blue(debugName)}][verifyVersionFn] Verifying Version`);
+    print('Verifying Version', ...printParams);
 
     // First, check if was already verified today
     if (fs.existsSync(join(__dirname, '../time.json'))) {
-      debug && console.log(`[${Colors.blue(debugName)}][verifyVersionFn] time.json exits!`);
+      print('time.json', ...printParams);
       let json = require(join(__dirname, '../time.json'));
 
       if (json[this.institution] === undefined) {
-        await this.verifyPageDownload();
+        print('Not verified for version yet, starting', ...printParams);
+        await this.verifyVersionDownload();
 
         json[this.institution] = Date.now();
         fs.writeFileSync(join(__dirname, '../time.json'), JSON.stringify(json));
       } else {
         if (Date.now() - json[this.institution].lastUpdate > 86400000) {
           // Passed one Day, Verify
-          debug && console.log(`[${Colors.blue(debugName)}][verifyVersionFn] Passed one day, checking for version again!`);
-          await this.verifyPageDownload();
+          print('Passed one day, checking for version again!', ...printParams);
+          await this.verifyVersionDownload();
 
           json[this.institution] = Date.now();
           fs.writeFileSync(join(__dirname, '../time.json'), JSON.stringify(json));
@@ -168,8 +169,8 @@ class Sigaa {
     } else {
       // File not exists, or there is no time data for this institution
       // Verify
-      debug && console.log(`[${Colors.blue(debugName)}][verifyVersionFn] Not verified for version yet, starting`);
-      await this.verifyPageDownload();
+      print('Not verified for version yet, starting', ...printParams);
+      await this.verifyVersionDownload();
 
       let jsonData = {}
       jsonData[this.institution] = {
@@ -186,7 +187,7 @@ class Sigaa {
    * 
    * Downloads the page and verify version from sigaa
    */
-  async verifyPageDownload() {
+  async verifyVersionDownload() {
     const debug = this.debug;
     const debugName = this.institution;
     const { cleanText } = require('./utils');

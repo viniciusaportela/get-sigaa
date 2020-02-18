@@ -1,11 +1,15 @@
-/**
- * Common Function to all Sigaa websites and others
- */
+/***********************
+  ╦ ╦╔╦╗╦╦  ╔═╗
+  ║ ║ ║ ║║  ╚═╗
+  ╚═╝ ╩ ╩╩═╝╚═╝
+
+  Common functions to all Sigaa websites and others
+************************/
 
 /**
-  * Removes tabulations and newlines from given text
-  * @param {String} text - Text to clean
-  */
+ * Removes tabulations and newlines from given text
+ * @param {String} text - Text to clean
+ */
 function cleanText(text) {
   return text.replace(/\n|\t/g, '');
 }
@@ -125,5 +129,27 @@ function processTable(table, {
   return response;
 }
 
-exports.cleanText = cleanText
-exports.processTable = processTable
+/**
+ * Custom console log, used for debug mode
+ * @param {String} msg - Message to write
+ * @param {Boolean} debug - If is in debug mode or not
+ * @param {Arrat} [stack] - [Optional] Stack of Names in Front of Message
+ */
+function print(msg, debug, ...stack) {
+  if (debug) {
+    const Colors = require('colors');
+    const consoleStart = (
+      stack.map((item, index) => {
+        return ('[' + ((index === 0) ? Colors.blue(item) : item) + ']')
+      }).join('')
+    );
+
+    console.log(consoleStart + ' ' + msg);
+  }
+}
+
+module.exports = {
+  cleanText,
+  processTable,
+  print
+}
